@@ -1,0 +1,2783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1800"
+   height="1440"
+   viewBox="0 0 1800 1440"
+   version="1.1"
+   id="svg201"
+   sodipodi:docname="retail_mm.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview201"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.28923611"
+     inkscape:cx="1042.401"
+     inkscape:cy="824.58584"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="stage-08-approval" />
+  <title
+     id="title1">SAP MM - Horizontal Procure-to-Pay Flow</title>
+  <desc
+     id="desc1">
+    Native editable SVG for an independent SAP MM portfolio.
+    Based on the UCI Online Retail dataset and simulated
+    purchasing transactions. No raster images or bitmap traces.
+  </desc>
+  <!-- ============================================ -->
+  <!-- DEFINITIONS                                  -->
+  <!-- ============================================ -->
+  <defs
+     id="defs27">
+    <linearGradient
+       id="pageBg"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#F8FBFF"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#EDF4FA"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="topAccent"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
+      <stop
+         offset="0%"
+         stop-color="#9CC6EA"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#447FC3"
+         id="stop4" />
+    </linearGradient>
+    <marker
+       id="arrowBlue"
+       markerWidth="9"
+       markerHeight="9"
+       refX="8"
+       refY="4.5"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M0 0 L9 4.5 L0 9 Z"
+         fill="#214F80"
+         id="path4" />
+    </marker>
+    <marker
+       id="arrowOrange"
+       markerWidth="9"
+       markerHeight="9"
+       refX="8"
+       refY="4.5"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M0 0 L9 4.5 L0 9 Z"
+         fill="#DC8B22"
+         id="path5" />
+    </marker>
+    <marker
+       id="arrowGreen"
+       markerWidth="9"
+       markerHeight="9"
+       refX="8"
+       refY="4.5"
+       orient="auto"
+       markerUnits="userSpaceOnUse">
+      <path
+         d="M0 0 L9 4.5 L0 9 Z"
+         fill="#258653"
+         id="path6" />
+    </marker>
+    <style
+       id="style6">
+      text {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        fill: #173554;
+      }
+
+      .pageTitle {
+        font-size: 42px;
+        font-weight: 750;
+        fill: #102C50;
+      }
+
+      .subtitle {
+        font-size: 16px;
+        fill: #5D7288;
+      }
+
+      .panel {
+        fill: #FFFFFF;
+        stroke: #CBDFEF;
+        stroke-width: 1.5;
+      }
+
+      .panelHeader {
+        fill: #173F74;
+      }
+
+      .panelTitle {
+        fill: #FFFFFF;
+        font-size: 17px;
+        font-weight: 700;
+      }
+
+      .sectionTitle {
+        font-size: 17px;
+        font-weight: 700;
+        fill: #19416B;
+      }
+
+      .eyebrow {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        fill: #8498AB;
+      }
+
+      .cardTitle {
+        font-size: 16px;
+        font-weight: 700;
+        fill: #193552;
+      }
+
+      .cardText {
+        font-size: 13px;
+        fill: #4B6580;
+      }
+
+      .small {
+        font-size: 12px;
+        fill: #617A92;
+      }
+
+      .micro {
+        font-size: 11px;
+        fill: #758CA2;
+      }
+
+      .metric {
+        font-size: 33px;
+        font-weight: 750;
+        fill: #173F74;
+      }
+
+      .metricLabel {
+        font-size: 13px;
+        fill: #667C91;
+      }
+
+      .body {
+        font-size: 14px;
+        fill: #294761;
+      }
+
+      .tableText {
+        font-size: 12px;
+        fill: #294761;
+      }
+
+      .statusText {
+        font-size: 11px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .cardBlue {
+        fill: #FFFFFF;
+        stroke: #87AFD5;
+        stroke-width: 1.8;
+      }
+
+      .cardGreen {
+        fill: #FFFFFF;
+        stroke: #87B9A3;
+        stroke-width: 1.8;
+      }
+
+      .cardOrange {
+        fill: #FFFDF8;
+        stroke: #E3AB62;
+        stroke-width: 1.8;
+      }
+
+      .cardRed {
+        fill: #FFF9F8;
+        stroke: #DC837C;
+        stroke-width: 1.8;
+      }
+
+      .primaryArrow {
+        fill: none;
+        stroke: #214F80;
+        stroke-width: 2.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrowBlue);
+      }
+
+      .primaryLine {
+        fill: none;
+        stroke: #214F80;
+        stroke-width: 2.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .exceptionArrow {
+        fill: none;
+        stroke: #DC8B22;
+        stroke-width: 2.5;
+        stroke-dasharray: 8 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        marker-end: url(#arrowOrange);
+      }
+
+      .successArrow {
+        fill: none;
+        stroke: #258653;
+        stroke-width: 2.7;
+        stroke-linecap: round;
+        marker-end: url(#arrowGreen);
+      }
+
+      .divider {
+        stroke: #DFE9F2;
+        stroke-width: 1;
+      }
+    </style>
+    <!-- ============================================ -->
+    <!-- NATIVE SVG ICONS                            -->
+    <!-- ============================================ -->
+    <symbol
+       id="icon-database"
+       viewBox="0 0 32 32">
+      <ellipse
+         cx="16"
+         cy="7"
+         rx="11"
+         ry="5"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="ellipse6" />
+      <path
+         d="M5 7V25C5 28 10 30 16 30                S27 28 27 25V7"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path7" />
+      <path
+         d="M5 16C5 19 10 21 16 21                S27 19 27 16"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path8" />
+    </symbol>
+    <symbol
+       id="icon-box"
+       viewBox="0 0 32 32">
+      <path
+         d="M4 9L16 4L28 9L16 14Z                M4 9V23L16 28L28 23V9                M16 14V28"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linejoin="round"
+         id="path9" />
+    </symbol>
+    <symbol
+       id="icon-inventory"
+       viewBox="0 0 32 32">
+      <rect
+         x="4"
+         y="5"
+         width="24"
+         height="23"
+         rx="2"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect9" />
+      <path
+         d="M4 13H28M4 20H28M12 5V28                M20 13V20"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path10" />
+    </symbol>
+    <symbol
+       id="icon-request"
+       viewBox="0 0 32 32">
+      <rect
+         x="7"
+         y="6"
+         width="18"
+         height="23"
+         rx="2"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect10" />
+      <rect
+         x="11"
+         y="3"
+         width="10"
+         height="7"
+         rx="2"
+         fill="white"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect11" />
+      <path
+         d="M11 15H21M11 20H21M11 25H18"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path11" />
+    </symbol>
+    <symbol
+       id="icon-compare"
+       viewBox="0 0 32 32">
+      <rect
+         x="3"
+         y="6"
+         width="10"
+         height="20"
+         rx="2"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect12" />
+      <rect
+         x="19"
+         y="6"
+         width="10"
+         height="20"
+         rx="2"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect13" />
+      <path
+         d="M13 12H19L16 9M19 12L16 15                M19 21H13L16 18M13 21L16 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="path13" />
+    </symbol>
+    <symbol
+       id="icon-supplier"
+       viewBox="0 0 32 32">
+      <circle
+         cx="16"
+         cy="9"
+         r="6"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle13" />
+      <path
+         d="M4 28C5 18 27 18 28 28"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path14" />
+      <path
+         d="M11 17L16 20L21 17"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path15" />
+    </symbol>
+    <symbol
+       id="icon-cart"
+       viewBox="0 0 32 32">
+      <path
+         d="M3 5H7L10 21H25L29 9H9"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path16" />
+      <circle
+         cx="12"
+         cy="27"
+         r="2.5"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle16" />
+      <circle
+         cx="24"
+         cy="27"
+         r="2.5"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle17" />
+    </symbol>
+    <symbol
+       id="icon-check"
+       viewBox="0 0 32 32">
+      <circle
+         cx="16"
+         cy="16"
+         r="13"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle18" />
+      <path
+         d="M9 16L14 21L23 11"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         stroke-linecap="round"
+         id="path18" />
+    </symbol>
+    <symbol
+       id="icon-warehouse"
+       viewBox="0 0 32 32">
+      <path
+         d="M3 14L16 5L29 14V28H3Z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path19" />
+      <path
+         d="M10 28V19H22V28                M10 23H22"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path20" />
+    </symbol>
+    <symbol
+       id="icon-invoice"
+       viewBox="0 0 32 32">
+      <path
+         d="M7 3L11 5L15 3L19 5L23 3L26 5                V29L22 27L18 29L14 27L10 29L7 27Z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path21" />
+      <path
+         d="M11 12H22M11 17H22M11 22H19"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path22" />
+    </symbol>
+    <symbol
+       id="icon-search"
+       viewBox="0 0 32 32">
+      <circle
+         cx="13"
+         cy="13"
+         r="9"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         id="circle22" />
+      <path
+         d="M20 20L29 29"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.8"
+         stroke-linecap="round"
+         id="path23" />
+    </symbol>
+    <symbol
+       id="icon-alert"
+       viewBox="0 0 32 32">
+      <path
+         d="M16 3L30 28H2Z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path24" />
+      <path
+         d="M16 11V20"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         id="path25" />
+      <circle
+         cx="16"
+         cy="24"
+         r="1.7"
+         fill="currentColor"
+         id="circle25" />
+    </symbol>
+    <symbol
+       id="icon-file-check"
+       viewBox="0 0 32 32">
+      <path
+         d="M7 3H20L26 9V29H7Z                M20 3V9H26"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path26" />
+      <path
+         d="M11 19L15 23L22 14"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         id="path27" />
+    </symbol>
+  </defs>
+  <!-- ============================================ -->
+  <!-- BACKGROUND                                   -->
+  <!-- ============================================ -->
+  <g
+     id="background"
+     inkscape:export-filename="background.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <rect
+       width="1800"
+       height="1440"
+       fill="url(#pageBg)"
+       id="rect27" />
+    <path
+       d="M0 170H1800"
+       stroke="#D9E8F5"
+       stroke-width="1"
+       id="path28" />
+    <path
+       d="M345 42H1708"
+       stroke="url(#topAccent)"
+       stroke-width="5"
+       id="path29" />
+    <path
+       d="M1715 22H1743L1725 62H1697Z"
+       fill="#A2CAEF"
+       id="path30" />
+    <path
+       d="M1750 22H1778L1760 62H1732Z"
+       fill="#5B9AD6"
+       id="path31" />
+  </g>
+  <!-- ============================================ -->
+  <!-- HEADER                                       -->
+  <!-- ============================================ -->
+  <g
+     id="header">
+    <rect
+       x="26"
+       y="25"
+       width="297"
+       height="37"
+       rx="18"
+       fill="#173F74"
+       id="rect31" />
+    <text
+       x="174"
+       y="49"
+       font-size="15"
+       font-weight="700"
+       text-anchor="middle"
+       fill="#FFFFFF"
+       id="text31"
+       style="fill:#ffffff">
+      END-TO-END PROCESS TRACE
+    </text>
+    <text
+       x="26"
+       y="110"
+       class="pageTitle"
+       id="text32">Procure-to-Pay Flow</text>
+    <text
+       x="26"
+       y="143"
+       class="subtitle"
+       id="text33">
+      A simulated procurement lifecycle from inventory planning
+      to invoice verification and exception management.
+    </text>
+    <rect
+       x="1290"
+       y="80"
+       width="485"
+       height="82"
+       rx="15"
+       fill="#FFFFFF"
+       stroke="#D1E1EF"
+       id="rect33" />
+    <text
+       x="1315"
+       y="118"
+       class="metric"
+       id="text34">12</text>
+    <text
+       x="1315"
+       y="142"
+       class="metricLabel"
+       id="text35">
+      Main stages
+    </text>
+    <path
+       class="divider"
+       d="M1448 92V149"
+       id="path35" />
+    <text
+       x="1473"
+       y="118"
+       class="metric"
+       id="text36">2</text>
+    <text
+       x="1473"
+       y="142"
+       class="metricLabel"
+       id="text37">
+      Follow-ups
+    </text>
+    <path
+       class="divider"
+       d="M1605 92V149"
+       id="path37" />
+    <text
+       x="1630"
+       y="118"
+       class="metric"
+       id="text38">1</text>
+    <text
+       x="1630"
+       y="142"
+       class="metricLabel"
+       id="text39">
+      Active review
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- MAIN PANEL                                   -->
+  <!-- ============================================ -->
+  <g
+     id="main-panel">
+    <rect
+       class="panel"
+       x="24"
+       y="181"
+       width="1342"
+       height="1055"
+       rx="20"
+       id="rect39" />
+    <circle
+       cx="48"
+       cy="211"
+       r="5"
+       fill="#5BB47B"
+       id="circle39" />
+    <text
+       x="63"
+       y="217"
+       class="sectionTitle"
+       id="text40">
+      Process Timeline
+    </text>
+    <path
+       class="divider"
+       d="M24 237H1366"
+       id="path41" />
+    <path
+       d="M974 211H1012"
+       stroke="#214F80"
+       stroke-width="2.5"
+       marker-end="url(#arrowBlue)"
+       id="path42" />
+    <text
+       x="1025"
+       y="216"
+       class="small"
+       id="text42">
+      Primary
+    </text>
+    <path
+       d="M1110 211H1148"
+       stroke="#DC8B22"
+       stroke-width="2.5"
+       stroke-dasharray="7 5"
+       marker-end="url(#arrowOrange)"
+       id="path43" />
+    <text
+       x="1161"
+       y="216"
+       class="small"
+       id="text43">
+      Exception
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- LEFT SWIMLANE LABELS                         -->
+  <!-- ============================================ -->
+  <g
+     id="swimlanes">
+    <g
+       id="lane-data">
+      <rect
+         x="40"
+         y="263"
+         width="130"
+         height="117"
+         rx="16"
+         fill="#E6F2FF"
+         stroke="#D5E5F5"
+         id="rect43" />
+      <use
+         href="#icon-database"
+         x="89"
+         y="276"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use43" />
+      <text
+         x="105"
+         y="330"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text44">
+        Data &amp;
+      </text>
+      <text
+         x="105"
+         y="351"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text45">
+        Planning
+      </text>
+    </g>
+    <g
+       id="lane-purchasing">
+      <rect
+         x="40"
+         y="483"
+         width="130"
+         height="126"
+         rx="16"
+         fill="#EAF7F0"
+         stroke="#D6EBDD"
+         id="rect45" />
+      <use
+         href="#icon-cart"
+         x="89"
+         y="499"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use45" />
+      <text
+         x="105"
+         y="553"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text46">
+        Purchasing
+      </text>
+      <text
+         x="105"
+         y="574"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text47">
+        &amp; Sourcing
+      </text>
+    </g>
+    <g
+       id="lane-receiving">
+      <rect
+         x="40"
+         y="701"
+         width="130"
+         height="115"
+         rx="16"
+         fill="#E6F2FF"
+         stroke="#D5E5F5"
+         id="rect47" />
+      <use
+         href="#icon-warehouse"
+         x="89"
+         y="714"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use47" />
+      <text
+         x="105"
+         y="771"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text48">
+        Goods &amp;
+      </text>
+      <text
+         x="105"
+         y="792"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text49">
+        Invoice
+      </text>
+    </g>
+    <g
+       id="lane-verification">
+      <rect
+         x="40"
+         y="925"
+         width="130"
+         height="285"
+         rx="16"
+         fill="#FFF4E5"
+         stroke="#F0DFC1"
+         id="rect49" />
+      <use
+         href="#icon-search"
+         x="89"
+         y="944"
+         width="32"
+         height="32"
+         style="color:#BF7F20"
+         id="use49" />
+      <text
+         x="105"
+         y="1003"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text50">
+        Invoice
+      </text>
+      <text
+         x="105"
+         y="1024"
+         text-anchor="middle"
+         class="sectionTitle"
+         id="text51">
+        Verification
+      </text>
+      <path
+         d="M60 1050H150"
+         stroke="#E8D3B1"
+         id="path51" />
+      <text
+         x="105"
+         y="1080"
+         text-anchor="middle"
+         class="small"
+         id="text52">
+        Decisions
+      </text>
+      <text
+         x="105"
+         y="1100"
+         text-anchor="middle"
+         class="small"
+         id="text53">
+        &amp; Exceptions
+      </text>
+    </g>
+  </g>
+  <!-- ============================================ -->
+  <!-- ALL CONNECTORS: DRAWN BEHIND THE CARDS       -->
+  <!-- ============================================ -->
+  <g
+     id="primary-connectors">
+    <!-- Row 1: Dataset -> Material -> Inventory -->
+    <path
+       class="primaryArrow"
+       d="M488 321H552"
+       id="path53" />
+    <path
+       class="primaryArrow"
+       d="M842 321H906"
+       id="path54" />
+    <!-- Row 1 to Row 2: Inventory -> PR -->
+    <path
+       class="primaryArrow"
+       d="M1051 380V449H291V483"
+       id="path55" />
+    <!-- Row 2: PR -> Quotation -> Supplier -> PO -> Approval -->
+    <path
+       class="primaryArrow"
+       d="M398 546H421"
+       id="path56" />
+    <path
+       class="primaryArrow"
+       d="M634 546H657"
+       id="path57" />
+    <path
+       class="primaryArrow"
+       d="M870 546H893"
+       id="path58" />
+    <path
+       class="primaryArrow"
+       d="M1106 546H1129"
+       id="path59" />
+    <!-- Approval branches to GR and Invoice Receipt -->
+    <path
+       class="primaryLine"
+       d="M1235 609V660H445"
+       id="path60" />
+    <path
+       class="primaryArrow"
+       d="M445 660V701"
+       id="path61" />
+    <path
+       class="primaryArrow"
+       d="M935 660V701"
+       id="path62" />
+    <!-- GR and Invoice independently enter 3WM -->
+    <path
+       class="primaryArrow"
+       d="M445 816V870H535V925"
+       id="path63" />
+    <path
+       class="primaryArrow"
+       d="M935 816V870H665V925"
+       id="path64" />
+    <!-- 3WM to decision -->
+    <path
+       class="primaryArrow"
+       d="M760 984H887"
+       id="path65" />
+    <!-- Decision YES -> Finance Review -->
+    <path
+       class="successArrow"
+       d="M1003 984H1045"
+       id="path66" />
+    <!-- Decision NO -> Open Issue -->
+    <path
+       class="exceptionArrow"
+       d="M945 1042V1090"
+       id="path67" />
+  </g>
+  <!-- ============================================ -->
+  <!-- ROW 1: DATA AND INVENTORY PLANNING           -->
+  <!-- ============================================ -->
+  <g
+     id="row-1-data-planning">
+    <!-- 01 DATASET -->
+    <g
+       id="stage-01-dataset">
+      <rect
+         class="cardBlue"
+         x="198"
+         y="263"
+         width="290"
+         height="117"
+         rx="15"
+         id="rect67" />
+      <rect
+         x="214"
+         y="280"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#EDF5FF"
+         id="rect68" />
+      <use
+         href="#icon-database"
+         x="218"
+         y="284"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use68" />
+      <text
+         class="eyebrow"
+         x="266"
+         y="285"
+         id="text68">
+        01 / SOURCE
+      </text>
+      <text
+         class="cardTitle"
+         x="266"
+         y="310"
+         id="text69">
+        UCI Online Retail Dataset
+      </text>
+      <text
+         class="cardText"
+         x="214"
+         y="343"
+         id="text70">
+        StockCode and Description
+      </text>
+      <text
+         class="small"
+         x="214"
+         y="362"
+         id="text71">
+        Public retail sales data
+      </text>
+    </g>
+    <!-- 02 MATERIAL MASTER -->
+    <g
+       id="stage-02-material-master">
+      <rect
+         class="cardBlue"
+         x="552"
+         y="263"
+         width="290"
+         height="117"
+         rx="15"
+         id="rect71" />
+      <rect
+         x="568"
+         y="280"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#EDF5FF"
+         id="rect72" />
+      <use
+         href="#icon-box"
+         x="572"
+         y="284"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use72" />
+      <text
+         class="eyebrow"
+         x="620"
+         y="285"
+         id="text72">
+        02 / MASTER DATA
+      </text>
+      <text
+         class="cardTitle"
+         x="620"
+         y="310"
+         id="text73">
+        Material Master
+      </text>
+      <text
+         class="cardText"
+         x="568"
+         y="343"
+         id="text74">
+        10 materials · HAWA
+      </text>
+      <text
+         class="small"
+         x="568"
+         y="362"
+         id="text75">
+        Base UoM: EA
+      </text>
+    </g>
+    <!-- 03 INVENTORY -->
+    <g
+       id="stage-03-inventory">
+      <rect
+         class="cardBlue"
+         x="906"
+         y="263"
+         width="290"
+         height="117"
+         rx="15"
+         id="rect75" />
+      <rect
+         x="922"
+         y="280"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#EDF5FF"
+         id="rect76" />
+      <use
+         href="#icon-inventory"
+         x="926"
+         y="284"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use76" />
+      <text
+         class="eyebrow"
+         x="974"
+         y="285"
+         id="text76">
+        03 / PLANNING
+      </text>
+      <text
+         class="cardTitle"
+         x="974"
+         y="310"
+         id="text77">
+        Inventory Planning
+      </text>
+      <text
+         class="cardText"
+         x="922"
+         y="343"
+         id="text78">
+        5 REORDER · 5 OK
+      </text>
+      <rect
+         x="1060"
+         y="350"
+         width="120"
+         height="23"
+         rx="11"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect78" />
+      <text
+         class="statusText"
+         x="1120"
+         y="366"
+         fill="#237B47"
+         id="text79">
+        75 EA TO BUY
+      </text>
+    </g>
+  </g>
+  <!-- ============================================ -->
+  <!-- ROW 2: PROCUREMENT & PURCHASING              -->
+  <!-- ============================================ -->
+  <g
+     id="row-2-purchasing">
+    <!-- 04 PR -->
+    <g
+       id="stage-04-pr">
+      <rect
+         class="cardGreen"
+         x="185"
+         y="483"
+         width="213"
+         height="126"
+         rx="15"
+         id="rect79" />
+      <rect
+         x="199"
+         y="491"
+         width="34"
+         height="34"
+         rx="9"
+         fill="#ecf8f0"
+         id="rect80" />
+      <use
+         href="#icon-request"
+         x="200"
+         y="500"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use80"
+         transform="translate(0,-8)" />
+      <text
+         class="eyebrow"
+         x="246"
+         y="509"
+         id="text80">
+        04 / REQUEST
+      </text>
+      <text
+         class="cardTitle"
+         x="199"
+         y="541"
+         id="text81">
+        Purchase Requisition
+      </text>
+      <text
+         class="cardText"
+         x="199"
+         y="563"
+         id="text82">
+        PR-SIM-001
+      </text>
+      <rect
+         x="199"
+         y="581"
+         width="184"
+         height="22"
+         rx="11"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect82" />
+      <text
+         class="statusText"
+         x="291"
+         y="596"
+         fill="#237B47"
+         id="text83">
+        5 ITEMS · 75 EA
+      </text>
+    </g>
+    <!-- 05 QUOTATION -->
+    <g
+       id="stage-05-quotation">
+      <rect
+         class="cardGreen"
+         x="421"
+         y="483"
+         width="213"
+         height="126"
+         rx="15"
+         id="rect83" />
+      <rect
+         x="435"
+         y="491"
+         width="34"
+         height="34"
+         rx="9"
+         fill="#ecf8f0"
+         id="rect84" />
+      <use
+         href="#icon-compare"
+         x="436"
+         y="500"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use84"
+         transform="translate(0,-8)" />
+      <text
+         class="eyebrow"
+         x="482"
+         y="509"
+         id="text84">
+        05 / SOURCING
+      </text>
+      <text
+         class="cardTitle"
+         x="435"
+         y="541"
+         id="text85">
+        Quotation Comparison
+      </text>
+      <text
+         class="cardText"
+         x="435"
+         y="563"
+         id="text86">
+        Alpha: £138.80
+      </text>
+      <text
+         class="small"
+         x="435"
+         y="584"
+         id="text87">
+        Beta: £121.50
+      </text>
+    </g>
+    <!-- 06 SUPPLIER SELECTION -->
+    <g
+       id="stage-06-supplier">
+      <rect
+         class="cardGreen"
+         x="657"
+         y="483"
+         width="213"
+         height="126"
+         rx="15"
+         id="rect87" />
+      <rect
+         x="671"
+         y="491"
+         width="34"
+         height="34"
+         rx="9"
+         fill="#ecf8f0"
+         id="rect88" />
+      <use
+         href="#icon-supplier"
+         x="672"
+         y="500"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use88"
+         transform="translate(0,-8)" />
+      <text
+         class="eyebrow"
+         x="718"
+         y="509"
+         id="text88">
+        06 / SELECTION
+      </text>
+      <text
+         class="cardTitle"
+         x="671"
+         y="541"
+         id="text89">
+        Supplier Selection
+      </text>
+      <text
+         class="cardText"
+         x="671"
+         y="563"
+         id="text90">
+        SUP-001 · Alpha
+      </text>
+      <rect
+         x="671"
+         y="581"
+         width="184"
+         height="22"
+         rx="11"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect90" />
+      <text
+         class="statusText"
+         x="763"
+         y="596"
+         fill="#237B47"
+         id="text91">
+        RECOMMENDED
+      </text>
+    </g>
+    <!-- 07 PO -->
+    <g
+       id="stage-07-po">
+      <rect
+         class="cardGreen"
+         x="893"
+         y="483"
+         width="213"
+         height="126"
+         rx="15"
+         id="rect91" />
+      <rect
+         x="907"
+         y="491"
+         width="34"
+         height="34"
+         rx="9"
+         fill="#ecf8f0"
+         id="rect92" />
+      <use
+         href="#icon-cart"
+         x="908"
+         y="500"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use92"
+         transform="translate(0,-8)" />
+      <text
+         class="eyebrow"
+         x="954"
+         y="509"
+         id="text92">
+        07 / PURCHASING
+      </text>
+      <text
+         class="cardTitle"
+         x="907"
+         y="541"
+         id="text93">
+        Purchase Order
+      </text>
+      <text
+         class="cardText"
+         x="907"
+         y="563"
+         id="text94">
+        PO-SIM-001
+      </text>
+      <rect
+         x="907"
+         y="581"
+         width="184"
+         height="22"
+         rx="11"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect94" />
+      <text
+         class="statusText"
+         x="999"
+         y="596"
+         fill="#237B47"
+         id="text95">
+        £138.80 · 75 EA
+      </text>
+    </g>
+    <!-- 08 PO APPROVAL -->
+    <g
+       id="stage-08-approval">
+      <rect
+         class="cardGreen"
+         x="1129"
+         y="483"
+         width="213"
+         height="126"
+         rx="15"
+         id="rect95" />
+      <rect
+         x="1143"
+         y="491"
+         width="34"
+         height="34"
+         rx="9"
+         fill="#ecf8f0"
+         id="rect96" />
+      <use
+         href="#icon-check"
+         x="1144"
+         y="500"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use96"
+         transform="translate(0,-8)" />
+      <text
+         class="eyebrow"
+         x="1190"
+         y="509"
+         id="text96">
+        08 / APPROVAL
+      </text>
+      <text
+         class="cardTitle"
+         x="1143"
+         y="541"
+         id="text97">
+        PO Approval &amp; Send
+      </text>
+      <text
+         class="cardText"
+         x="1143"
+         y="563"
+         id="text98">
+        Threshold: &gt; £100
+      </text>
+      <rect
+         x="1143"
+         y="581"
+         width="184"
+         height="22"
+         rx="11"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect98" />
+      <text
+         class="statusText"
+         x="1235"
+         y="596"
+         fill="#237B47"
+         id="text99">
+        APPROVED · SENT
+      </text>
+    </g>
+  </g>
+  <!-- ============================================ -->
+  <!-- ROW 3: GOODS RECEIPT & INVOICE RECEIPT      -->
+  <!-- ============================================ -->
+  <g
+     id="row-3-goods-invoice"
+     transform="matrix(0.9528349,0,0,1.0002615,14.121989,-0.19838307)">
+    <!-- 09 GR -->
+    <g
+       id="stage-09-gr">
+      <rect
+         class="cardBlue"
+         x="300"
+         y="701"
+         width="290"
+         height="115"
+         rx="15"
+         id="rect99" />
+      <rect
+         x="316"
+         y="717"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#edf5ff"
+         id="rect100" />
+      <use
+         href="#icon-warehouse"
+         x="320"
+         y="721"
+         width="32"
+         height="32"
+         style="color:#2a5aa1"
+         id="use100" />
+      <text
+         class="eyebrow"
+         x="368"
+         y="724"
+         id="text100">09 / RECEIVING</text>
+      <text
+         class="cardTitle"
+         x="368"
+         y="749"
+         id="text101">Goods Receipt</text>
+      <text
+         class="cardText"
+         x="316"
+         y="773"
+         id="text102">GR-SIM-001 · Received: 73 EA</text>
+      <rect
+         x="316"
+         y="786"
+         width="258"
+         height="22"
+         rx="11"
+         fill="#fff0d4"
+         stroke="#e5be71"
+         id="rect102" />
+      <text
+         class="statusText"
+         x="445"
+         y="801"
+         fill="#9A6515"
+         id="text103">PARTIAL · 2 EA OUTSTANDING</text>
+    </g>
+    <!-- 10 INVOICE -->
+    <g
+       id="stage-10-invoice">
+      <rect
+         class="cardBlue"
+         x="790"
+         y="701"
+         width="290"
+         height="115"
+         rx="15"
+         id="rect103" />
+      <rect
+         x="806"
+         y="717"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#edf5ff"
+         id="rect104" />
+      <use
+         href="#icon-invoice"
+         x="810"
+         y="721"
+         width="32"
+         height="32"
+         style="color:#2a5aa1"
+         id="use104" />
+      <text
+         class="eyebrow"
+         x="858"
+         y="724"
+         id="text104">10 / SUPPLIER INVOICE</text>
+      <text
+         class="cardTitle"
+         x="858"
+         y="749"
+         id="text105">Invoice Receipt</text>
+      <text
+         class="cardText"
+         x="806"
+         y="773"
+         id="text106">INV-SIM-001 · Invoiced: 75 EA</text>
+      <rect
+         x="806"
+         y="786"
+         width="258"
+         height="22"
+         rx="11"
+         fill="#e8f1fd"
+         stroke="#a7c7e9"
+         id="rect106" />
+      <text
+         class="statusText"
+         x="935"
+         y="801"
+         fill="#2D6092"
+         id="text107">INVOICE VALUE: £138.80</text>
+    </g>
+    <text
+       x="1126.941"
+       y="734.99945"
+       class="sectionTitle"
+       id="text108">Three-Way Matching Inputs</text>
+    <text
+       x="1126.941"
+       y="758.99945"
+       class="small"
+       id="text109">PO: Ordered Quantity &amp; Price</text>
+    <text
+       x="1126.941"
+       y="777.99945"
+       class="small"
+       id="text110">GR: Received Quantity</text>
+    <text
+       x="1126.941"
+       y="796.99945"
+       class="small"
+       id="text111">Invoice: Billed Quantity &amp; Price</text>
+  </g>
+  <!-- ============================================ -->
+  <!-- ROW 4: THREE-WAY MATCHING & DECISION         -->
+  <!-- ============================================ -->
+  <g
+     id="row-4-verification">
+    <!-- 11 3WM -->
+    <g
+       id="stage-11-three-way-matching">
+      <rect
+         class="cardBlue"
+         x="465"
+         y="925"
+         width="295"
+         height="115"
+         rx="15"
+         id="rect111" />
+      <rect
+         x="481"
+         y="942"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#EDF5FF"
+         id="rect112" />
+      <use
+         href="#icon-search"
+         x="485"
+         y="946"
+         width="32"
+         height="32"
+         style="color:#2A5AA1"
+         id="use112" />
+      <text
+         class="eyebrow"
+         x="533"
+         y="947"
+         id="text112">
+        11 / VALIDATION
+      </text>
+      <text
+         class="cardTitle"
+         x="533"
+         y="971"
+         id="text113">
+        Three-Way Matching
+      </text>
+      <text
+         class="cardText"
+         x="481"
+         y="995"
+         id="text114">
+        Compare PO, GR, and Invoice
+      </text>
+      <rect
+         x="481"
+         y="1007"
+         width="263"
+         height="24"
+         rx="12"
+         fill="#FFF0D4"
+         stroke="#E5BE71"
+         id="rect114" />
+      <text
+         class="statusText"
+         x="612"
+         y="1023"
+         fill="#9A6515"
+         id="text115">
+        4 MATCH · 1 REVIEW
+      </text>
+    </g>
+    <!-- DECISION DIAMOND -->
+    <g
+       id="decision-three-way-matching">
+      <polygon
+         points="945,926 1003,984 945,1042 887,984"
+         fill="#FFF7E2"
+         stroke="#D69B32"
+         stroke-width="2"
+         id="polygon115" />
+      <text
+         x="945"
+         y="974"
+         font-size="14"
+         font-weight="700"
+         text-anchor="middle"
+         fill="#795313"
+         id="text116">
+        3WM
+      </text>
+      <text
+         x="945"
+         y="993"
+         font-size="14"
+         font-weight="700"
+         text-anchor="middle"
+         fill="#795313"
+         id="text117">
+        MATCH?
+      </text>
+      <text
+         x="1015"
+         y="961"
+         font-size="12"
+         font-weight="700"
+         fill="#258653"
+         id="text118">
+        YES
+      </text>
+      <text
+         x="957"
+         y="1066"
+         font-size="12"
+         font-weight="700"
+         fill="#C17B17"
+         id="text119">
+        REVIEW
+      </text>
+    </g>
+    <!-- 12 FINANCE REVIEW -->
+    <g
+       id="stage-12-finance">
+      <rect
+         class="cardGreen"
+         x="1045"
+         y="925"
+         width="300"
+         height="115"
+         rx="15"
+         id="rect119" />
+      <rect
+         x="1061"
+         y="942"
+         width="40"
+         height="40"
+         rx="10"
+         fill="#ECF8F0"
+         id="rect120" />
+      <use
+         href="#icon-file-check"
+         x="1065"
+         y="946"
+         width="32"
+         height="32"
+         style="color:#278659"
+         id="use120" />
+      <text
+         class="eyebrow"
+         x="1113"
+         y="947"
+         id="text120">
+        12 / MATCHED ITEMS
+      </text>
+      <text
+         class="cardTitle"
+         x="1113"
+         y="971"
+         id="text121">
+        Finance Review
+      </text>
+      <text
+         class="cardText"
+         x="1061"
+         y="995"
+         id="text122">
+        4 matched invoice lines
+      </text>
+      <rect
+         x="1061"
+         y="1007"
+         width="268"
+         height="24"
+         rx="12"
+         fill="#E4F6E8"
+         stroke="#A2D4AC"
+         id="rect122" />
+      <text
+         class="statusText"
+         x="1195"
+         y="1023"
+         fill="#237B47"
+         id="text123">
+        ELIGIBLE FOR REVIEW
+      </text>
+    </g>
+  </g>
+  <!-- ============================================ -->
+  <!-- EXCEPTION FOLLOW-UP CONNECTORS              -->
+  <!-- ============================================ -->
+  <g
+     id="exception-connectors">
+    <!-- Bus from open issue to parallel follow-up actions -->
+    <path
+       d="M1015 1210V1224H337"
+       fill="none"
+       stroke="#DC8B22"
+       stroke-width="2.3"
+       stroke-dasharray="8 6"
+       stroke-linecap="round"
+       id="path123" />
+    <path
+       class="exceptionArrow"
+       d="M337 1224V1210"
+       id="path124" />
+    <path
+       class="exceptionArrow"
+       d="M642 1224V1210"
+       id="path125" />
+  </g>
+  <!-- ============================================ -->
+  <!-- OPEN ISSUE AND TWO FOLLOW-UPS               -->
+  <!-- ============================================ -->
+  <g
+     id="exception-cards">
+    <!-- FOLLOW-UP 01 -->
+    <g
+       id="supplier-clarification">
+      <rect
+         class="cardOrange"
+         x="200"
+         y="1090"
+         width="275"
+         height="120"
+         rx="15"
+         id="rect125" />
+      <rect
+         x="215"
+         y="1105"
+         width="37"
+         height="37"
+         rx="10"
+         fill="#FFF1DC"
+         id="rect126" />
+      <use
+         href="#icon-request"
+         x="218"
+         y="1108"
+         width="31"
+         height="31"
+         style="color:#CC831E"
+         id="use126" />
+      <text
+         class="eyebrow"
+         x="263"
+         y="1115"
+         id="text126">
+        FOLLOW-UP 01
+      </text>
+      <text
+         class="cardTitle"
+         x="263"
+         y="1138"
+         id="text127">
+        Supplier Clarification
+      </text>
+      <text
+         class="cardText"
+         x="216"
+         y="1165"
+         id="text128">
+        Confirm remaining 2 EA
+      </text>
+      <text
+         class="small"
+         x="216"
+         y="1186"
+         id="text129">
+        Or request invoice correction
+      </text>
+    </g>
+    <!-- FOLLOW-UP 02 -->
+    <g
+       id="gr-follow-up">
+      <rect
+         class="cardOrange"
+         x="500"
+         y="1090"
+         width="285"
+         height="120"
+         rx="15"
+         id="rect129" />
+      <rect
+         x="515"
+         y="1105"
+         width="37"
+         height="37"
+         rx="10"
+         fill="#FFF1DC"
+         id="rect130" />
+      <use
+         href="#icon-warehouse"
+         x="518"
+         y="1108"
+         width="31"
+         height="31"
+         style="color:#CC831E"
+         id="use130" />
+      <text
+         class="eyebrow"
+         x="563"
+         y="1115"
+         id="text130">
+        FOLLOW-UP 02
+      </text>
+      <text
+         class="cardTitle"
+         x="563"
+         y="1138"
+         id="text131">
+        Goods Receipt Follow-up
+      </text>
+      <text
+         class="cardText"
+         x="516"
+         y="1165"
+         id="text132">
+        Verify outstanding delivery
+      </text>
+      <text
+         class="small"
+         x="516"
+         y="1186"
+         id="text133">
+        No additional GR recorded yet
+      </text>
+    </g>
+    <!-- OPEN ISSUE -->
+    <g
+       id="open-issue-iss-mm-001">
+      <rect
+         class="cardRed"
+         x="860"
+         y="1090"
+         width="310"
+         height="120"
+         rx="15"
+         id="rect133" />
+      <rect
+         x="875"
+         y="1105"
+         width="38"
+         height="38"
+         rx="10"
+         fill="#FFE8E5"
+         id="rect134" />
+      <use
+         href="#icon-alert"
+         x="878"
+         y="1108"
+         width="32"
+         height="32"
+         style="color:#C64E44"
+         id="use134" />
+      <text
+         class="eyebrow"
+         x="925"
+         y="1115"
+         id="text134">
+        ACTIVE REVIEW
+      </text>
+      <text
+         class="cardTitle"
+         x="925"
+         y="1138"
+         id="text135">
+        Issue Log · ISS-MM-001
+      </text>
+      <text
+         class="cardText"
+         x="876"
+         y="1163"
+         id="text136">
+        Quantity variance: +2 EA / £3.20
+      </text>
+      <rect
+         x="876"
+         y="1176"
+         width="278"
+         height="23"
+         rx="11"
+         fill="#FFE6E3"
+         stroke="#E6A39D"
+         id="rect136" />
+      <text
+         class="statusText"
+         x="1015"
+         y="1192"
+         fill="#B0443B"
+         id="text137">
+        OPEN_REVIEW
+      </text>
+    </g>
+  </g>
+  <!-- ============================================ -->
+  <!-- RIGHT PANEL: PROCESS SUMMARY                -->
+  <!-- ============================================ -->
+  <g
+     id="process-summary">
+    <rect
+       class="panel"
+       x="1386"
+       y="181"
+       width="390"
+       height="178"
+       rx="16"
+       id="rect137" />
+    <path
+       class="panelHeader"
+       d="M1402 181H1760Q1776 181 1776 197V225              H1386V197Q1386 181 1402 181Z"
+       id="path137" />
+    <text
+       x="1406"
+       y="210"
+       class="panelTitle"
+       id="text138">
+      Process Summary
+    </text>
+    <text
+       x="1408"
+       y="260"
+       class="body"
+       id="text139">
+      Material candidates
+    </text>
+    <text
+       x="1746"
+       y="260"
+       text-anchor="end"
+       class="cardTitle"
+       id="text140">
+      10
+    </text>
+    <path
+       class="divider"
+       d="M1406 272H1756"
+       id="path140" />
+    <text
+       x="1408"
+       y="295"
+       class="body"
+       id="text141">
+      Reorder items
+    </text>
+    <text
+       x="1746"
+       y="295"
+       text-anchor="end"
+       class="cardTitle"
+       id="text142">
+      5
+    </text>
+    <path
+       class="divider"
+       d="M1406 307H1756"
+       id="path142" />
+    <text
+       x="1408"
+       y="332"
+       class="body"
+       id="text143">
+      Total quantity ordered
+    </text>
+    <text
+       x="1746"
+       y="332"
+       text-anchor="end"
+       class="cardTitle"
+       id="text144">
+      75 EA
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- RIGHT PANEL: KEY STATUS                     -->
+  <!-- ============================================ -->
+  <g
+     id="key-status">
+    <rect
+       class="panel"
+       x="1386"
+       y="375"
+       width="390"
+       height="304"
+       rx="16"
+       id="rect144" />
+    <path
+       class="panelHeader"
+       d="M1402 375H1760Q1776 375 1776 391V419              H1386V391Q1386 375 1402 375Z"
+       id="path144" />
+    <text
+       x="1406"
+       y="404"
+       class="panelTitle"
+       id="text145">
+      Key Status (Simulation)
+    </text>
+    <!-- ROW 1 -->
+    <text
+       x="1408"
+       y="454"
+       class="body"
+       id="text146">
+      Purchase Requisition
+    </text>
+    <rect
+       x="1618"
+       y="436"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#E4F6E8"
+       stroke="#A2D4AC"
+       id="rect146" />
+    <text
+       class="statusText"
+       x="1685"
+       y="453"
+       fill="#237B47"
+       id="text147">
+      PR-SIM-001
+    </text>
+    <path
+       class="divider"
+       d="M1406 466H1756"
+       id="path147" />
+    <!-- ROW 2 -->
+    <text
+       x="1408"
+       y="485"
+       class="body"
+       id="text148">
+      Selected Supplier
+    </text>
+    <rect
+       x="1618"
+       y="467"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#E4F6E8"
+       stroke="#A2D4AC"
+       id="rect148" />
+    <text
+       class="statusText"
+       x="1685"
+       y="484"
+       fill="#237B47"
+       id="text149">
+      SUP-001
+    </text>
+    <path
+       class="divider"
+       d="M1406 497H1756"
+       id="path149" />
+    <!-- ROW 3 -->
+    <text
+       x="1408"
+       y="516"
+       class="body"
+       id="text150">
+      Purchase Order
+    </text>
+    <rect
+       x="1618"
+       y="498"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#E4F6E8"
+       stroke="#A2D4AC"
+       id="rect150" />
+    <text
+       class="statusText"
+       x="1685"
+       y="515"
+       fill="#237B47"
+       id="text151">
+      PO-SIM-001
+    </text>
+    <path
+       class="divider"
+       d="M1406 528H1756"
+       id="path151" />
+    <!-- ROW 4 -->
+    <text
+       x="1408"
+       y="547"
+       class="body"
+       id="text152">
+      Approval / Sending
+    </text>
+    <rect
+       x="1618"
+       y="529"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#E4F6E8"
+       stroke="#A2D4AC"
+       id="rect152" />
+    <text
+       class="statusText"
+       x="1685"
+       y="546"
+       fill="#237B47"
+       id="text153">
+      SENT
+    </text>
+    <path
+       class="divider"
+       d="M1406 559H1756"
+       id="path153" />
+    <!-- ROW 5 -->
+    <text
+       x="1408"
+       y="578"
+       class="body"
+       id="text154">
+      Goods Receipt
+    </text>
+    <rect
+       x="1618"
+       y="560"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#FFF0D4"
+       stroke="#E5BE71"
+       id="rect154" />
+    <text
+       class="statusText"
+       x="1685"
+       y="577"
+       fill="#9A6515"
+       id="text155">
+      PARTIAL
+    </text>
+    <path
+       class="divider"
+       d="M1406 590H1756"
+       id="path155" />
+    <!-- ROW 6 -->
+    <text
+       x="1408"
+       y="609"
+       class="body"
+       id="text156">
+      Three-Way Matching
+    </text>
+    <rect
+       x="1618"
+       y="591"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#FFF0D4"
+       stroke="#E5BE71"
+       id="rect156" />
+    <text
+       class="statusText"
+       x="1685"
+       y="608"
+       fill="#9A6515"
+       id="text157">
+      1 REVIEW
+    </text>
+    <path
+       class="divider"
+       d="M1406 621H1756"
+       id="path157" />
+    <!-- ROW 7 -->
+    <text
+       x="1408"
+       y="640"
+       class="body"
+       id="text158">
+      Issue Resolution
+    </text>
+    <rect
+       x="1618"
+       y="622"
+       width="135"
+       height="25"
+       rx="12"
+       fill="#FFE6E3"
+       stroke="#E6A39D"
+       id="rect158" />
+    <text
+       class="statusText"
+       x="1685"
+       y="639"
+       fill="#B0443B"
+       id="text159">
+      OPEN_REVIEW
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- RIGHT PANEL: LEGEND                         -->
+  <!-- ============================================ -->
+  <g
+     id="legend">
+    <rect
+       class="panel"
+       x="1386"
+       y="695"
+       width="390"
+       height="255"
+       rx="16"
+       id="rect159" />
+    <path
+       class="panelHeader"
+       d="M1402 695H1760Q1776 695 1776 711V739              H1386V711Q1386 695 1402 695Z"
+       id="path159" />
+    <text
+       x="1406"
+       y="724"
+       class="panelTitle"
+       id="text160">
+      Legend
+    </text>
+    <rect
+       x="1410"
+       y="756"
+       width="64"
+       height="29"
+       rx="8"
+       fill="#FFFFFF"
+       stroke="#87AFD5"
+       stroke-width="2"
+       id="rect160" />
+    <text
+       x="1492"
+       y="774"
+       class="body"
+       id="text161">
+      Main process activity
+    </text>
+    <path
+       d="M1410 810H1470"
+       stroke="#214F80"
+       stroke-width="2.5"
+       marker-end="url(#arrowBlue)"
+       id="path161" />
+    <text
+       x="1492"
+       y="815"
+       class="body"
+       id="text162">
+      Primary process flow
+    </text>
+    <path
+       d="M1410 849H1470"
+       stroke="#DC8B22"
+       stroke-width="2.5"
+       stroke-dasharray="7 5"
+       marker-end="url(#arrowOrange)"
+       id="path162" />
+    <text
+       x="1492"
+       y="854"
+       class="body"
+       id="text163">
+      Exception / follow-up
+    </text>
+    <polygon
+       points="1441,873 1461,893 1441,913 1421,893"
+       fill="#FFF7E2"
+       stroke="#D69B32"
+       stroke-width="1.8"
+       id="polygon163" />
+    <text
+       x="1492"
+       y="897"
+       class="body"
+       id="text164">
+      Decision point
+    </text>
+    <rect
+       x="1410"
+       y="922"
+       width="110"
+       height="21"
+       rx="10"
+       fill="#FFE6E3"
+       stroke="#E6A39D"
+       id="rect164" />
+    <text
+       class="statusText"
+       x="1465"
+       y="936"
+       fill="#B0443B"
+       id="text165">
+      REVIEW
+    </text>
+    <text
+       x="1533"
+       y="936"
+       class="small"
+       id="text166">
+      Open exception
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- RIGHT PANEL: SUPPLIER AND ISSUE NOTES       -->
+  <!-- ============================================ -->
+  <g
+     id="technical-notes">
+    <rect
+       class="panel"
+       x="1386"
+       y="970"
+       width="390"
+       height="266"
+       rx="16"
+       id="rect166" />
+    <path
+       class="panelHeader"
+       d="M1402 970H1760Q1776 970 1776 986V1014              H1386V986Q1386 970 1402 970Z"
+       id="path166" />
+    <text
+       x="1406"
+       y="999"
+       class="panelTitle"
+       id="text167">
+      Business Findings
+    </text>
+    <text
+       x="1407"
+       y="1044"
+       class="sectionTitle"
+       id="text168">
+      Supplier Decision
+    </text>
+    <text
+       x="1407"
+       y="1065"
+       class="body"
+       id="text169">
+      Alpha delivery: 17 Nov 2026
+    </text>
+    <text
+       x="1407"
+       y="1085"
+       class="body"
+       id="text170">
+      Beta delivery: 24 Nov 2026
+    </text>
+    <text
+       x="1407"
+       y="1105"
+       class="body"
+       id="text171">
+      Required date: 20 Nov 2026
+    </text>
+    <text
+       x="1407"
+       y="1125"
+       class="small"
+       id="text172">
+      Alpha costs £17.30 more but arrives on time.
+    </text>
+    <path
+       class="divider"
+       d="M1405 1142H1757"
+       id="path172" />
+    <text
+       x="1407"
+       y="1165"
+       class="sectionTitle"
+       id="text173">
+      Outstanding Issue
+    </text>
+    <text
+       x="1407"
+       y="1186"
+       class="body"
+       id="text174">
+      PO Item 10 · StockCode 85123A
+    </text>
+    <text
+       x="1407"
+       y="1206"
+       class="body"
+       id="text175">
+      PO 14 EA · GR 12 EA · Invoice 14 EA
+    </text>
+    <text
+       x="1407"
+       y="1225"
+       class="small"
+       id="text176">
+      Clarification pending. No payment confirmed.
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- BOTTOM PANEL: BUSINESS RULES                 -->
+  <!-- ============================================ -->
+  <g
+     id="business-rules">
+    <rect
+       class="panel"
+       x="24"
+       y="1255"
+       width="785"
+       height="149"
+       rx="15"
+       id="rect176" />
+    <path
+       class="panelHeader"
+       d="M39 1255H794Q809 1255 809 1270V1290              H24V1270Q24 1255 39 1255Z"
+       id="path176" />
+    <text
+       x="44"
+       y="1279"
+       class="panelTitle"
+       id="text177">
+      Business Rules &amp; Validation Logic
+    </text>
+    <path
+       class="divider"
+       d="M265 1294V1393"
+       id="path177" />
+    <text
+       x="43"
+       y="1314"
+       class="tableText"
+       id="text178">
+      Inventory Reorder Rule
+    </text>
+    <text
+       x="279"
+       y="1314"
+       class="tableText"
+       id="text179">
+      Current_Stock &lt; Reorder_Point → REORDER
+    </text>
+    <path
+       class="divider"
+       d="M38 1325H795"
+       id="path179" />
+    <text
+       x="43"
+       y="1340"
+       class="tableText"
+       id="text180">
+      Purchase Quantity
+    </text>
+    <text
+       x="279"
+       y="1340"
+       class="tableText"
+       id="text181">
+      Target_Stock − Current_Stock (when REORDER)
+    </text>
+    <path
+       class="divider"
+       d="M38 1351H795"
+       id="path181" />
+    <text
+       x="43"
+       y="1366"
+       class="tableText"
+       id="text182">
+      PO Approval Threshold
+    </text>
+    <text
+       x="279"
+       y="1366"
+       class="tableText"
+       id="text183">
+      PO Total &gt; £100 → Purchasing Manager Approval
+    </text>
+    <path
+       class="divider"
+       d="M38 1377H795"
+       id="path183" />
+    <text
+       x="43"
+       y="1392"
+       class="tableText"
+       id="text184">
+      Three-Way Matching
+    </text>
+    <text
+       x="279"
+       y="1392"
+       class="tableText"
+       id="text185">
+      Invoice Qty ≤ PO and GR Qty; PO Price = Invoice Price
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- BOTTOM PANEL: KEY NUMBERS                   -->
+  <!-- ============================================ -->
+  <g
+     id="key-numbers">
+    <rect
+       class="panel"
+       x="831"
+       y="1255"
+       width="434"
+       height="149"
+       rx="15"
+       id="rect185" />
+    <path
+       class="panelHeader"
+       d="M846 1255H1250Q1265 1255 1265 1270V1290              H831V1270Q831 1255 846 1255Z"
+       id="path185" />
+    <text
+       x="851"
+       y="1279"
+       class="panelTitle"
+       id="text186">
+      Key Numbers
+    </text>
+    <text
+       x="851"
+       y="1315"
+       class="tableText"
+       id="text187">
+      PO / Invoice Value
+    </text>
+    <text
+       x="1247"
+       y="1315"
+       text-anchor="end"
+       class="tableText"
+       id="text188">
+      £138.80
+    </text>
+    <path
+       class="divider"
+       d="M847 1325H1250"
+       id="path188" />
+    <text
+       x="851"
+       y="1341"
+       class="tableText"
+       id="text189">
+      GR / Invoice Quantity
+    </text>
+    <text
+       x="1247"
+       y="1341"
+       text-anchor="end"
+       class="tableText"
+       id="text190">
+      73 EA / 75 EA
+    </text>
+    <path
+       class="divider"
+       d="M847 1351H1250"
+       id="path190" />
+    <text
+       x="851"
+       y="1367"
+       class="tableText"
+       id="text191">
+      Quantity Variance
+    </text>
+    <text
+       x="1247"
+       y="1367"
+       text-anchor="end"
+       class="tableText"
+       id="text192">
+      +2 EA
+    </text>
+    <path
+       class="divider"
+       d="M847 1377H1250"
+       id="path192" />
+    <text
+       x="851"
+       y="1393"
+       class="tableText"
+       id="text193">
+      Variance Value
+    </text>
+    <text
+       x="1247"
+       y="1393"
+       text-anchor="end"
+       class="tableText"
+       id="text194">
+      £3.20
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- BOTTOM PANEL: TRACEABILITY                 -->
+  <!-- ============================================ -->
+  <g
+     id="traceability">
+    <rect
+       class="panel"
+       x="1287"
+       y="1255"
+       width="489"
+       height="149"
+       rx="15"
+       id="rect194" />
+    <path
+       class="panelHeader"
+       d="M1302 1255H1761Q1776 1255 1776 1270V1290              H1287V1270Q1287 1255 1302 1255Z"
+       id="path194" />
+    <text
+       x="1307"
+       y="1279"
+       class="panelTitle"
+       id="text195">
+      Traceability &amp; Project Disclosure
+    </text>
+    <text
+       x="1305"
+       y="1314"
+       class="tableText"
+       id="text196">
+      Data source: UCI Online Retail (StockCode, Description)
+    </text>
+    <text
+       x="1305"
+       y="1337"
+       class="tableText"
+       id="text197">
+      Procurement, pricing, supplier and inventory data: simulated
+    </text>
+    <text
+       x="1305"
+       y="1360"
+       class="tableText"
+       id="text198">
+      Excel-based functional simulation; no SAP posting performed
+    </text>
+    <text
+       x="1305"
+       y="1383"
+       class="tableText"
+       id="text199">
+      Issue: ISS-MM-001 · OPEN_REVIEW · No payment recorded
+    </text>
+  </g>
+  <!-- ============================================ -->
+  <!-- FOOTER                                       -->
+  <!-- ============================================ -->
+  <g
+     id="footer"
+     inkscape:export-filename="footer.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+</svg>

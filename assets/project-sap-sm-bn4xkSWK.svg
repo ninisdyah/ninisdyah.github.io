@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1772.787"
+   height="1180"
+   viewBox="0 0 1772.787 1180"
+   version="1.1"
+   id="svg192"
+   sodipodi:docname="APS_Service_to_Billing_Flow-edit.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   inkscape:export-filename="APS_Service_to_Billing_Flow"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview192"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="2.8237288"
+     inkscape:cx="1355.123"
+     inkscape:cy="1038.8745"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg192">
+    <sodipodi:guide
+       position="445.23958,941.604"
+       orientation="0,-1"
+       id="guide192"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <title
+     id="title1">APS Service-to-Billing Flow</title>
+  <desc
+     id="desc1">
+    Editable vector flowchart for an independent SAP Service
+    Management simulation based on the UCI Scania APS dataset.
+    All graphical elements are SVG vectors.
+  </desc>
+  <defs
+     id="defs18">
+    <linearGradient
+       id="background"
+       x2="0"
+       y2="1374.045"
+       gradientTransform="scale(1.164445,0.8587782)"
+       x1="0"
+       y1="0"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#F8FBFF"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#EDF4FA"
+         id="stop2" />
+    </linearGradient>
+    <marker
+       id="arrow-blue"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2" />
+    </marker>
+    <marker
+       id="arrow-orange"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#e98a19"
+         id="path3" />
+    </marker>
+    <marker
+       id="arrow-green"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#328b58"
+         id="path4" />
+    </marker>
+    <style
+       id="style4">
+      text {
+        font-family: Inter, Arial, sans-serif;
+        fill: #173554;
+      }
+
+      .title {
+        font-size: 39px;
+        font-weight: 750;
+        fill: #102C50;
+      }
+
+      .subtitle {
+        font-size: 15px;
+        fill: #64778B;
+      }
+
+      .section {
+        font-size: 17px;
+        font-weight: 700;
+        fill: #19426A;
+      }
+
+      .card-title {
+        font-size: 15px;
+        font-weight: 700;
+        fill: #142F4F;
+      }
+
+      .card-id {
+        font-size: 12px;
+        fill: #627A90;
+      }
+
+      .eyebrow {
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        fill: #8A9DB0;
+      }
+
+      .small {
+        font-size: 12px;
+        fill: #405C77;
+      }
+
+      .table-text {
+        font-size: 12px;
+        fill: #28435E;
+      }
+
+      .table-head {
+        font-size: 16px;
+        font-weight: 700;
+        fill: white;
+      }
+
+      .status-text {
+        font-size: 11px;
+        font-weight: 700;
+        text-anchor: middle;
+      }
+
+      .metric {
+        font-size: 32px;
+        font-weight: 750;
+        fill: #153A6B;
+      }
+
+      .metric-label {
+        font-size: 12px;
+        fill: #627A90;
+      }
+
+      .panel {
+        fill: white;
+        stroke: #CDDFEF;
+        stroke-width: 1.5;
+      }
+
+      .card {
+        fill: white;
+        stroke: #8AB2D9;
+        stroke-width: 1.7;
+      }
+
+      .flow {
+        fill: none;
+        stroke: #214C7A;
+        stroke-width: 2.4;
+        marker-end: url(#arrow-blue);
+      }
+
+      .follow-line {
+        fill: none;
+        stroke: #E98A19;
+        stroke-width: 2.3;
+        stroke-dasharray: 7 5;
+        marker-end: url(#arrow-orange);
+      }
+
+      .divider {
+        stroke: #DFE9F2;
+        stroke-width: 1;
+      }
+    </style>
+    <!-- All icons below are native SVG vectors. -->
+    <symbol
+       id="ico-database"
+       viewBox="0 0 32 32">
+      <ellipse
+         cx="16"
+         cy="7"
+         rx="11"
+         ry="5"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="ellipse4" />
+      <path
+         d="m 5,7 v 18 c 0,3 5,5 11,5 6,0 11,-2 11,-5 V 7"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path5" />
+      <path
+         d="m 5,16 c 0,3 5,5 11,5 6,0 11,-2 11,-5"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path6" />
+    </symbol>
+    <symbol
+       id="ico-truck"
+       viewBox="0 0 32 32">
+      <path
+         d="M 2,8 H 19 V 23 H 2 Z m 17,5 h 6 l 5,6 v 4 H 19"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path7" />
+      <circle
+         cx="9"
+         cy="24"
+         r="3"
+         fill="#ffffff"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle7" />
+      <circle
+         cx="25"
+         cy="24"
+         r="3"
+         fill="#ffffff"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle8" />
+    </symbol>
+    <symbol
+       id="ico-document"
+       viewBox="0 0 32 32">
+      <path
+         d="m 7,3 h 13 l 6,6 V 29 H 7 Z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path8" />
+      <path
+         d="m 20,3 v 6 h 6 m -15,6 h 11 m -11,5 h 11 m -11,5 h 8"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path9" />
+    </symbol>
+    <symbol
+       id="ico-clipboard"
+       viewBox="0 0 32 32">
+      <rect
+         x="6"
+         y="6"
+         width="20"
+         height="24"
+         rx="2"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect9" />
+      <rect
+         x="11"
+         y="2"
+         width="10"
+         height="8"
+         rx="2"
+         fill="#ffffff"
+         stroke="currentColor"
+         stroke-width="2"
+         id="rect10" />
+      <path
+         d="m 11,16 h 11 m -11,5 h 11 m -11,5 h 8"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path10" />
+    </symbol>
+    <symbol
+       id="ico-person"
+       viewBox="0 0 32 32">
+      <circle
+         cx="16"
+         cy="9"
+         r="6"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle10" />
+      <path
+         d="M 4,29 C 5,17 27,17 28,29"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path11" />
+    </symbol>
+    <symbol
+       id="ico-wrench"
+       viewBox="0 0 32 32">
+      <path
+         d="m 21,3 a 9,9 0 0 0 -8,11 l -9,9 a 4,4 0 0 0 5,5 l 9,-9 A 9,9 0 0 0 29,8 l -6,6 -5,-5 z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         stroke-linejoin="round"
+         id="path12" />
+    </symbol>
+    <symbol
+       id="ico-check"
+       viewBox="0 0 32 32">
+      <circle
+         cx="16"
+         cy="16"
+         r="13"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle12" />
+      <path
+         d="m 9,16 5,5 9,-10"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         stroke-linecap="round"
+         id="path13" />
+    </symbol>
+    <symbol
+       id="ico-money"
+       viewBox="0 0 32 32">
+      <ellipse
+         cx="13"
+         cy="9"
+         rx="10"
+         ry="4"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="ellipse13" />
+      <path
+         d="m 3,9 v 14 c 0,4 20,4 20,0 V 9 M 3,16 c 0,4 20,4 20,0"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path14" />
+      <circle
+         cx="24"
+         cy="23"
+         r="6"
+         fill="#ffffff"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle14" />
+    </symbol>
+    <symbol
+       id="ico-search"
+       viewBox="0 0 32 32">
+      <circle
+         cx="13"
+         cy="13"
+         r="9"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2.5"
+         id="circle15" />
+      <path
+         d="m 20,20 9,9"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="3"
+         stroke-linecap="round"
+         id="path15" />
+    </symbol>
+    <symbol
+       id="ico-pause"
+       viewBox="0 0 32 32">
+      <circle
+         cx="16"
+         cy="16"
+         r="13"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="circle16" />
+      <path
+         d="M 12,10 V 22 M 20,10 V 22"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="3"
+         id="path16" />
+    </symbol>
+    <symbol
+       id="ico-warning"
+       viewBox="0 0 32 32">
+      <path
+         d="M 16,3 30,28 H 2 Z"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="2"
+         id="path17" />
+      <path
+         d="m 16,11 v 9"
+         stroke="currentColor"
+         stroke-width="2.5"
+         id="path18" />
+      <circle
+         cx="16"
+         cy="24"
+         r="1.5"
+         fill="currentColor"
+         id="circle18" />
+    </symbol>
+    <marker
+       id="arrow-blue-0"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-9" />
+    </marker>
+    <marker
+       id="arrow-blue-8"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2" />
+    </marker>
+    <marker
+       id="arrow-blue-8-5"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-1" />
+    </marker>
+    <marker
+       id="arrow-blue-8-1"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-5" />
+    </marker>
+    <marker
+       id="arrow-blue-8-6"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-14" />
+    </marker>
+    <marker
+       id="arrow-blue-8-2"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-2" />
+    </marker>
+    <marker
+       id="arrow-blue-8-8"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-57" />
+    </marker>
+    <marker
+       id="arrow-blue-8-9"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-27" />
+    </marker>
+    <marker
+       id="arrow-blue-8-4"
+       markerWidth="8"
+       markerHeight="8"
+       refX="7"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,0 8,4 0,8 Z"
+         fill="#214c7a"
+         id="path2-2-3" />
+    </marker>
+  </defs>
+  <!-- BACKGROUND -->
+  <g
+     id="background-layer"
+     transform="matrix(1.1079919,0,0,1,2.0033278,-7.0282352e-6)"
+     inkscape:export-filename="APS_Service_to_Billing_Flow-edit.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96">
+    <rect
+       width="1600"
+       height="1180"
+       fill="url(#background)"
+       id="rect18"
+       style="fill:url(#background)"
+       x="0"
+       y="0" />
+  </g>
+  <!-- HEADER -->
+  <g
+     id="header"
+     transform="matrix(0.9690069,0,0,1,173.71682,0)">
+    <rect
+       x="-137.18163"
+       y="22"
+       width="274"
+       height="36"
+       rx="18"
+       fill="#173f74"
+       id="rect19" />
+    <text
+       x="-0.1814809"
+       y="45"
+       fill="white"
+       font-size="15px"
+       font-weight="700"
+       text-anchor="middle"
+       id="text19"
+       style="fill:#ffffff">END-TO-END PROCESS TRACE</text>
+    <text
+       class="title"
+       x="-137.18163"
+       y="110"
+       id="text20">APS Service-to-Billing Flow</text>
+    <text
+       class="subtitle"
+       x="-137.18163"
+       y="143"
+       id="text21">Traceability from dataset signal to billing review, including operational exceptions.</text>
+    <path
+       d="M 164.8713,40 H 1510"
+       stroke="#9fc5e8"
+       stroke-width="4"
+       id="path21"
+       sodipodi:nodetypes="cc" />
+    <path
+       d="m 1530,20 h 22 l -18,36 h -22 z"
+       fill="#a8cff2"
+       id="path22" />
+    <path
+       d="m 1562,20 h 22 l -18,36 h -22 z"
+       fill="#5599da"
+       id="path23" />
+    <rect
+       x="1200"
+       y="76"
+       width="375"
+       height="84"
+       rx="15"
+       fill="#ffffff"
+       stroke="#d5e3ef"
+       id="rect23" />
+    <text
+       class="metric"
+       x="1230"
+       y="117"
+       id="text23">12</text>
+    <text
+       class="metric-label"
+       x="1230"
+       y="140"
+       id="text24">Main stages</text>
+    <path
+       class="divider"
+       d="m 1350,90 v 57"
+       id="path24" />
+    <text
+       class="metric"
+       x="1372"
+       y="117"
+       id="text25">2</text>
+    <text
+       class="metric-label"
+       x="1372"
+       y="140"
+       id="text26">Follow-ups</text>
+    <path
+       class="divider"
+       d="m 1480,90 v 57"
+       id="path26" />
+    <text
+       class="metric"
+       x="1502"
+       y="117"
+       id="text27">1</text>
+    <text
+       class="metric-label"
+       x="1502"
+       y="140"
+       id="text28">Active hold</text>
+  </g>
+  <!-- MAIN PROCESS PANEL -->
+  <rect
+     class="panel"
+     x="21.306486"
+     y="181.62373"
+     width="1280.0809"
+     height="785.92004"
+     rx="19.949316"
+     id="rect28" />
+  <path
+     class="flow"
+     d="m 344.7406,283.72924 h 59.62464"
+     id="path39-8"
+     style="fill:none;stroke:#214c7a;stroke-width:2.7626;marker-end:url(#arrow-blue-0)" />
+  <text
+     class="section"
+     x="220.78702"
+     y="211"
+     id="text29">Process Timeline</text>
+  <path
+     class="divider"
+     d="M 197.78702,230 H 1352.7871"
+     id="path30" />
+  <rect
+     x="34.991676"
+     y="237.99002"
+     width="140"
+     height="112"
+     rx="15"
+     fill="#e4f1ff"
+     id="rect30" />
+  <use
+     href="#ico-database"
+     x="93"
+     y="257"
+     width="32"
+     height="32"
+     color="#2455a4"
+     id="use30"
+     transform="translate(-5.00832,-6.0099832)" />
+  <text
+     class="section"
+     x="104.99168"
+     y="305.99002"
+     text-anchor="middle"
+     id="text31">Data &amp;</text>
+  <text
+     class="section"
+     x="104.99168"
+     y="325.99002"
+     text-anchor="middle"
+     id="text32">Master</text>
+  <rect
+     x="34.991676"
+     y="364.99002"
+     width="140"
+     height="138"
+     rx="15"
+     fill="#e4f1ff"
+     id="rect32" />
+  <use
+     href="#ico-wrench"
+     x="93"
+     y="386"
+     width="32"
+     height="32"
+     color="#2455a4"
+     id="use32"
+     transform="translate(-5.00832,-6.0099832)" />
+  <text
+     class="section"
+     x="104.99168"
+     y="438.99002"
+     text-anchor="middle"
+     id="text33">Service</text>
+  <text
+     class="section"
+     x="104.99168"
+     y="458.99002"
+     text-anchor="middle"
+     id="text34">Execution</text>
+  <rect
+     x="34.991676"
+     y="538.98999"
+     width="140"
+     height="139"
+     rx="15"
+     fill="#e4f1ff"
+     id="rect34" />
+  <use
+     href="#ico-money"
+     x="93"
+     y="560"
+     width="32"
+     height="32"
+     color="#2455a4"
+     id="use34"
+     transform="translate(-5.00832,-6.0099832)" />
+  <text
+     class="section"
+     x="104.99168"
+     y="614.98999"
+     text-anchor="middle"
+     id="text35">Costing &amp;</text>
+  <text
+     class="section"
+     x="104.99168"
+     y="634.98999"
+     text-anchor="middle"
+     id="text36">Billing</text>
+  <rect
+     x="34.991676"
+     y="705.98999"
+     width="140"
+     height="226"
+     rx="15"
+     fill="#e4f1ff"
+     id="rect36" />
+  <use
+     href="#ico-clipboard"
+     x="93"
+     y="731"
+     width="32"
+     height="32"
+     color="#2455a4"
+     id="use36"
+     transform="translate(-5.00832,-6.0099832)" />
+  <text
+     class="section"
+     x="104.99168"
+     y="786.98999"
+     text-anchor="middle"
+     id="text37">Follow-up</text>
+  <text
+     class="section"
+     x="104.99168"
+     y="806.98999"
+     text-anchor="middle"
+     id="text38">&amp; Open Actions</text>
+  <g
+     id="process-arrows"
+     transform="translate(172.78702)">
+    <path
+       class="flow"
+       d="m 510,282 h 45"
+       id="path39" />
+    <path
+       class="flow"
+       d="m 685.17707,323.93758 v 20 l -525.9904,-2.12485 -0.70828,26.41656"
+       id="path40"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="flow"
+       d="m 385,435 h 15"
+       id="path41" />
+    <path
+       class="flow"
+       d="m 580,435 h 15"
+       id="path42" />
+    <path
+       class="flow"
+       d="m 775,435 h 15"
+       id="path43" />
+    <path
+       class="flow"
+       d="m 970,435 h 15"
+       id="path44" />
+    <path
+       class="flow"
+       d="m 1009.4908,499.9809 0,15.48752 -852.20503,-2.17518 -0.53382,28.47522"
+       id="path45"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="flow"
+       d="m 385,610 h 15"
+       id="path46" />
+    <path
+       class="flow"
+       d="m 580,610 h 15"
+       id="path47" />
+    <path
+       class="flow"
+       d="m 775,610 h 15"
+       id="path48" />
+    <path
+       class="flow"
+       d="m 970,610 h 15"
+       id="path49" />
+    <path
+       class="follow-line"
+       d="M 69,435 H 56 l 2.478993,247.29292 181.399777,1.72774 -0.0859,20.7206"
+       id="path50"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       class="follow-line"
+       d="M 379.82293,671.28151 380,684.85474 l 190.17707,-0.35414 -0.35414,21.78091"
+       id="path51"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="follow-line"
+       d="m 1019.4077,676.00166 0.05,94.01168 -115.16203,-1.11315 0.71673,30.72406"
+       id="path52"
+       sodipodi:nodetypes="cccc" />
+    <path
+       class="flow"
+       d="m 236.21298,434.6 h 45"
+       id="path39-5"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8)" />
+    <path
+       class="flow"
+       d="m 451.21298,434.6 h 45"
+       id="path39-5-1"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-5)" />
+    <path
+       class="flow"
+       d="m 667.21298,435.6 h 45"
+       id="path39-5-7"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-1)" />
+    <path
+       class="flow"
+       d="m 880.21298,440.6 h 45"
+       id="path39-5-3"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-6)" />
+    <path
+       class="flow"
+       d="m 234.21298,619.6 h 45"
+       id="path39-5-6"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-2)" />
+    <path
+       class="flow"
+       d="m 449.21298,622.6 h 45"
+       id="path39-5-18"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-8)" />
+    <path
+       class="flow"
+       d="m 663.21298,621.6 h 45"
+       id="path39-5-5"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-9)" />
+    <path
+       class="flow"
+       d="m 879.21298,623.6 h 45"
+       id="path39-5-2"
+       style="fill:none;stroke:#214c7a;stroke-width:2.4;marker-end:url(#arrow-blue-8-4)" />
+  </g>
+  <rect
+     x="264.16876"
+     y="266"
+     width="80.804489"
+     height="34.255409"
+     rx="25.251404"
+     fill="#173f74"
+     id="rect52"
+     style="stroke-width:1.36389" />
+  <text
+     x="304.94662"
+     y="286.62604"
+     fill="white"
+     font-size="12px"
+     font-weight="700"
+     text-anchor="middle"
+     id="text52"
+     style="fill:#ffffff">Start</text>
+  <g
+     id="uci-source"
+     transform="translate(172.78702)">
+    <rect
+       class="card"
+       x="235"
+       y="239"
+       width="275"
+       height="86"
+       rx="13"
+       id="rect53" />
+    <use
+       href="#ico-database"
+       x="253"
+       y="260"
+       width="29"
+       height="29"
+       color="#2455a4"
+       id="use53" />
+    <text
+       class="eyebrow"
+       x="295"
+       y="257"
+       id="text53">SOURCE</text>
+    <text
+       class="card-title"
+       x="295"
+       y="280"
+       id="text54">UCI Scania APS Dataset</text>
+    <text
+       class="card-id"
+       x="295"
+       y="302"
+       id="text55">Source_Row_ID: 10 · class: pos</text>
+  </g>
+  <g
+     id="equipment-master"
+     transform="translate(172.78702)">
+    <rect
+       class="card"
+       x="555"
+       y="239"
+       width="260"
+       height="86"
+       rx="13"
+       id="rect55" />
+    <use
+       href="#ico-truck"
+       x="573"
+       y="261"
+       width="29"
+       height="29"
+       color="#237d74"
+       id="use55" />
+    <text
+       class="eyebrow"
+       x="614"
+       y="257"
+       id="text56">ASSET</text>
+    <text
+       class="card-title"
+       x="614"
+       y="280"
+       id="text57">Equipment Master</text>
+    <text
+       class="card-id"
+       x="614"
+       y="302"
+       id="text58">EQ-SIM-001</text>
+  </g>
+  <text
+     class="small"
+     x="1022.787"
+     y="272"
+     id="text59">Simulated asset mapping</text>
+  <text
+     class="small"
+     x="1022.787"
+     y="289"
+     id="text60">Not a verified vehicle identity</text>
+  <g
+     id="service-execution"
+     transform="translate(36.796624)">
+    <g
+       id="service-request">
+      <rect
+         x="205"
+         y="370"
+         width="180"
+         height="130"
+         rx="13"
+         fill="#fff9f9"
+         stroke="#df7774"
+         stroke-width="1.7"
+         id="rect60" />
+      <use
+         href="#ico-warning"
+         x="221"
+         y="386"
+         width="29"
+         height="29"
+         color="#d24d45"
+         id="use60" />
+      <text
+         class="eyebrow"
+         x="256"
+         y="393"
+         id="text61">REQUEST</text>
+      <text
+         class="card-title"
+         x="256"
+         y="416"
+         id="text62">Service Request</text>
+      <text
+         class="card-id"
+         x="222"
+         y="456"
+         id="text63">SR-SIM-001</text>
+      <rect
+         x="217"
+         y="469"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#ffe7e5"
+         stroke="#e58b85"
+         id="rect63" />
+      <text
+         class="status-text"
+         x="295"
+         y="485"
+         fill="#B94038"
+         id="text64">CRITICAL · OPEN</text>
+    </g>
+    <g
+       id="service-order"
+       transform="translate(20)">
+      <rect
+         class="card"
+         x="400"
+         y="370"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect64" />
+      <use
+         href="#ico-clipboard"
+         x="416"
+         y="386"
+         width="29"
+         height="29"
+         color="#268a54"
+         id="use64" />
+      <text
+         class="eyebrow"
+         x="452"
+         y="393"
+         id="text65">ORDER</text>
+      <text
+         class="card-title"
+         x="452"
+         y="416"
+         id="text66">Service Order</text>
+      <text
+         class="card-id"
+         x="417"
+         y="456"
+         id="text67">SVO-SIM-001</text>
+      <rect
+         x="412"
+         y="469"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect67" />
+      <text
+         class="status-text"
+         x="490"
+         y="485"
+         fill="#277E45"
+         id="text68">RELEASED</text>
+    </g>
+    <g
+       id="technician-assignment"
+       transform="translate(40)">
+      <rect
+         class="card"
+         x="595"
+         y="370"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect68" />
+      <use
+         href="#ico-person"
+         x="611"
+         y="386"
+         width="29"
+         height="29"
+         color="#268a54"
+         id="use68" />
+      <text
+         class="eyebrow"
+         x="647"
+         y="393"
+         id="text69">ASSIGNMENT</text>
+      <text
+         class="card-title"
+         x="647"
+         y="416"
+         id="text70">Technician</text>
+      <text
+         class="card-title"
+         x="647"
+         y="432"
+         id="text71">Assignment</text>
+      <text
+         class="card-id"
+         x="612"
+         y="456"
+         id="text72">TECH-SIM-001</text>
+      <rect
+         x="607"
+         y="469"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect72" />
+      <text
+         class="status-text"
+         x="685"
+         y="485"
+         fill="#277E45"
+         id="text73">READY</text>
+    </g>
+    <g
+       id="aps-inspection"
+       transform="translate(60)">
+      <rect
+         class="card"
+         x="790"
+         y="370"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect73" />
+      <use
+         href="#ico-wrench"
+         x="806"
+         y="386"
+         width="29"
+         height="29"
+         color="#268a54"
+         id="use73" />
+      <text
+         class="eyebrow"
+         x="842"
+         y="393"
+         id="text74">EXECUTION</text>
+      <text
+         class="card-title"
+         x="842"
+         y="416"
+         id="text75">APS Inspection</text>
+      <text
+         class="card-id"
+         x="808"
+         y="456"
+         id="text76">Planned: 2 H</text>
+      <rect
+         x="802"
+         y="469"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#eaf2fd"
+         stroke="#a8c6e8"
+         id="rect76" />
+      <text
+         class="status-text"
+         x="880"
+         y="485"
+         fill="#24558A"
+         id="text77">ACTUAL: 3 H</text>
+    </g>
+    <g
+       id="service-confirmation"
+       transform="translate(80)">
+      <rect
+         class="card"
+         x="985"
+         y="370"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect77" />
+      <use
+         href="#ico-check"
+         x="1001"
+         y="386"
+         width="29"
+         height="29"
+         color="#268a54"
+         id="use77" />
+      <text
+         class="eyebrow"
+         x="1037"
+         y="393"
+         id="text78">CONFIRMATION</text>
+      <text
+         class="card-title"
+         x="1037"
+         y="416"
+         id="text79">Service</text>
+      <text
+         class="card-title"
+         x="1037"
+         y="432"
+         id="text80">Confirmation</text>
+      <text
+         class="card-id"
+         x="1002"
+         y="456"
+         id="text81">CNF-SIM-001</text>
+      <rect
+         x="997"
+         y="469"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect81" />
+      <text
+         class="status-text"
+         x="1075"
+         y="485"
+         fill="#277E45"
+         id="text82">COMPLETED</text>
+    </g>
+  </g>
+  <g
+     id="costing-billing"
+     transform="translate(172.78702)">
+    <g
+       id="service-costing">
+      <rect
+         class="card"
+         x="67"
+         y="545"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect82" />
+      <use
+         href="#ico-money"
+         x="221"
+         y="561"
+         width="29"
+         height="29"
+         color="#2455a4"
+         id="use82"
+         transform="translate(-138)" />
+      <text
+         class="eyebrow"
+         x="119"
+         y="568"
+         id="text83">COSTING</text>
+      <text
+         class="card-title"
+         x="119"
+         y="591"
+         id="text84">Service Costing</text>
+      <text
+         class="small"
+         x="82"
+         y="627"
+         id="text85">Internal labor cost</text>
+      <text
+         class="card-title"
+         x="82"
+         y="650"
+         id="text86">Rp540.000</text>
+    </g>
+    <g
+       id="billing-precheck"
+       transform="translate(-118)">
+      <rect
+         class="card"
+         x="400"
+         y="545"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect86" />
+      <use
+         href="#ico-search"
+         x="416"
+         y="561"
+         width="29"
+         height="29"
+         color="#237d74"
+         id="use86" />
+      <text
+         class="eyebrow"
+         x="452"
+         y="568"
+         id="text87">PRECHECK</text>
+      <text
+         class="card-title"
+         x="452"
+         y="591"
+         id="text88">Billing Precheck</text>
+      <text
+         class="small"
+         x="413"
+         y="620"
+         id="text89">2 H · Rp700.000</text>
+      <rect
+         x="410"
+         y="642"
+         width="160"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect89" />
+      <text
+         class="status-text"
+         x="490"
+         y="658"
+         fill="#277E45"
+         id="text90">READY_FOR_RELEASE</text>
+    </g>
+    <g
+       id="billing-document-request"
+       transform="translate(-98)">
+      <rect
+         class="card"
+         x="595"
+         y="545"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect90" />
+      <use
+         href="#ico-document"
+         x="611"
+         y="561"
+         width="29"
+         height="29"
+         color="#237d74"
+         id="use90" />
+      <text
+         class="eyebrow"
+         x="647"
+         y="568"
+         id="text91">BILLING</text>
+      <text
+         class="card-title"
+         x="647"
+         y="591"
+         id="text92">Billing Document</text>
+      <text
+         class="card-title"
+         x="647"
+         y="608"
+         id="text93">Request (BDR)</text>
+      <text
+         class="card-id"
+         x="611"
+         y="629"
+         id="text94">BDR-SIM-001</text>
+      <rect
+         x="607"
+         y="642"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect94" />
+      <text
+         class="status-text"
+         x="685"
+         y="658"
+         fill="#277E45"
+         id="text95">CREATED</text>
+    </g>
+    <g
+       id="invoice-draft"
+       transform="translate(-78)">
+      <rect
+         class="card"
+         x="790"
+         y="545"
+         width="180"
+         height="130"
+         rx="13"
+         id="rect95" />
+      <use
+         href="#ico-document"
+         x="806"
+         y="561"
+         width="29"
+         height="29"
+         color="#2455a4"
+         id="use95" />
+      <text
+         class="eyebrow"
+         x="842"
+         y="568"
+         id="text96">INVOICE</text>
+      <text
+         class="card-title"
+         x="842"
+         y="591"
+         id="text97">Billing Document</text>
+      <text
+         class="card-title"
+         x="842"
+         y="608"
+         id="text98">(Invoice Draft)</text>
+      <text
+         class="card-id"
+         x="805"
+         y="629"
+         id="text99">INV-SIM-001 · Rp700.000</text>
+      <rect
+         x="802"
+         y="642"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#eae7ff"
+         stroke="#ac9aeb"
+         id="rect99" />
+      <text
+         class="status-text"
+         x="880"
+         y="658"
+         fill="#6548B0"
+         id="text100">DRAFT</text>
+    </g>
+    <g
+       id="tax-review"
+       transform="translate(-58)">
+      <rect
+         x="985"
+         y="545"
+         width="180"
+         height="130"
+         rx="13"
+         fill="#fffdf6"
+         stroke="#d5a74e"
+         stroke-width="1.7"
+         id="rect100" />
+      <use
+         href="#ico-warning"
+         x="1001"
+         y="561"
+         width="29"
+         height="29"
+         color="#c18a20"
+         id="use100" />
+      <text
+         class="eyebrow"
+         x="1037"
+         y="568"
+         id="text101">REVIEW</text>
+      <text
+         class="card-title"
+         x="1037"
+         y="591"
+         id="text102">Tax Review</text>
+      <text
+         class="small"
+         x="1001"
+         y="620"
+         id="text103">Tax determination</text>
+      <text
+         class="small"
+         x="1001"
+         y="637"
+         id="text104">still pending</text>
+      <rect
+         x="997"
+         y="644"
+         width="156"
+         height="23"
+         rx="11"
+         fill="#ffe8e7"
+         stroke="#e58b85"
+         id="rect104" />
+      <text
+         class="status-text"
+         x="1075"
+         y="660"
+         fill="#B94038"
+         id="text105">HOLD_TAX_REVIEW</text>
+    </g>
+  </g>
+  <g
+     id="follow-up-decisions"
+     transform="translate(62.78702)">
+    <polygon
+       points="394,743 350,778 306,743 350,708 "
+       fill="#fff7de"
+       stroke="#d5a43a"
+       stroke-width="1.8"
+       id="polygon105" />
+    <text
+       x="350"
+       y="738"
+       text-anchor="middle"
+       font-size="12px"
+       font-weight="700"
+       id="text106">Diagnosis</text>
+    <text
+       x="350"
+       y="753"
+       text-anchor="middle"
+       font-size="12px"
+       font-weight="700"
+       id="text107">Confirmed?</text>
+    <path
+       class="follow-line"
+       d="m 349.29172,774.27009 v 25.02163"
+       id="path107"
+       sodipodi:nodetypes="cc" />
+    <polygon
+       points="724,743 680,778 636,743 680,708 "
+       fill="#fff7de"
+       stroke="#d5a43a"
+       stroke-width="1.8"
+       id="polygon107" />
+    <text
+       x="680"
+       y="738"
+       text-anchor="middle"
+       font-size="12px"
+       font-weight="700"
+       id="text108">Overrun</text>
+    <text
+       x="680"
+       y="753"
+       text-anchor="middle"
+       font-size="12px"
+       font-weight="700"
+       id="text109">Approved?</text>
+    <path
+       class="follow-line"
+       d="M 679.96962,776.9817 680,800"
+       id="path109"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="367"
+       y="785"
+       font-size="11px"
+       font-weight="700"
+       fill="#B76C14"
+       id="text110">NO</text>
+    <text
+       x="697"
+       y="785"
+       font-size="11px"
+       font-weight="700"
+       fill="#B76C14"
+       id="text111">NO</text>
+  </g>
+  <g
+     id="follow-up-actions"
+     transform="translate(62.78702,12)">
+    <g
+       id="follow-up-aps">
+      <rect
+         x="205"
+         y="790"
+         width="290"
+         height="144"
+         rx="13"
+         fill="#fffcf8"
+         stroke="#e8a15d"
+         stroke-width="1.6"
+         id="rect111" />
+      <use
+         href="#ico-clipboard"
+         x="221"
+         y="808"
+         width="30"
+         height="30"
+         color="#e47c1c"
+         id="use111" />
+      <text
+         class="eyebrow"
+         x="264"
+         y="809"
+         id="text112">FOLLOW-UP</text>
+      <text
+         class="card-title"
+         x="264"
+         y="833"
+         id="text113">APS Diagnosis</text>
+      <text
+         class="card-id"
+         x="264"
+         y="853"
+         id="text114">ACT-SM-001</text>
+      <rect
+         x="410"
+         y="807"
+         width="72"
+         height="23"
+         rx="11"
+         fill="#ffe8e7"
+         stroke="#e58b85"
+         id="rect114" />
+      <text
+         class="status-text"
+         x="446"
+         y="823"
+         fill="#B94038"
+         id="text115">OPEN</text>
+      <text
+         class="small"
+         x="222"
+         y="883"
+         id="text116">Further diagnosis is required.</text>
+      <text
+         class="small"
+         x="222"
+         y="903"
+         id="text117">Root cause not confirmed.</text>
+      <text
+         class="small"
+         x="222"
+         y="922"
+         id="text118">Keep Service Request OPEN.</text>
+    </g>
+    <g
+       id="follow-up-overrun">
+      <rect
+         x="535"
+         y="790"
+         width="290"
+         height="144"
+         rx="13"
+         fill="#fffcf8"
+         stroke="#e8a15d"
+         stroke-width="1.6"
+         id="rect118" />
+      <use
+         href="#ico-clipboard"
+         x="551"
+         y="808"
+         width="30"
+         height="30"
+         color="#e47c1c"
+         id="use118" />
+      <text
+         class="eyebrow"
+         x="594"
+         y="809"
+         id="text119">FOLLOW-UP</text>
+      <text
+         class="card-title"
+         x="594"
+         y="833"
+         id="text120">Labor Overrun</text>
+      <text
+         class="card-id"
+         x="594"
+         y="853"
+         id="text121">ACT-SM-002</text>
+      <rect
+         x="731"
+         y="807"
+         width="82"
+         height="23"
+         rx="11"
+         fill="#fff1cd"
+         stroke="#dcaa40"
+         id="rect121" />
+      <text
+         class="status-text"
+         x="772"
+         y="823"
+         fill="#936711"
+         id="text122">PENDING</text>
+      <text
+         class="small"
+         x="552"
+         y="883"
+         id="text123">Request customer approval.</text>
+      <text
+         class="small"
+         x="552"
+         y="903"
+         id="text124">Additional 1 H: Rp350.000.</text>
+      <text
+         class="small"
+         x="552"
+         y="922"
+         id="text125">Not included in current billing.</text>
+    </g>
+    <g
+       id="follow-up-tax">
+      <rect
+         x="865"
+         y="790"
+         width="300"
+         height="144"
+         rx="13"
+         fill="#fffcf8"
+         stroke="#e8a15d"
+         stroke-width="1.6"
+         id="rect125" />
+      <use
+         href="#ico-clipboard"
+         x="881"
+         y="808"
+         width="30"
+         height="30"
+         color="#e47c1c"
+         id="use125" />
+      <text
+         class="eyebrow"
+         x="924"
+         y="809"
+         id="text126">ACTIVE HOLD</text>
+      <text
+         class="card-title"
+         x="924"
+         y="833"
+         id="text127">Tax Review</text>
+      <text
+         class="card-id"
+         x="924"
+         y="853"
+         id="text128">ACT-SM-003</text>
+      <text
+         class="small"
+         x="882"
+         y="883"
+         id="text129">Complete tax determination.</text>
+      <text
+         class="small"
+         x="882"
+         y="903"
+         id="text130">Invoice remains DRAFT.</text>
+      <text
+         class="small"
+         x="882"
+         y="922"
+         id="text131">Finalization is blocked.</text>
+    </g>
+  </g>
+  <!-- RIGHT SIDEBAR -->
+  <g
+     id="right-sidebar"
+     transform="translate(126.78702)">
+    <g
+       id="process-summary">
+      <rect
+         class="panel"
+         x="1200"
+         y="181"
+         width="375"
+         height="157"
+         rx="15"
+         id="rect131" />
+      <path
+         d="m 1215,181 h 345 q 15,0 15,15 v 26 h -375 v -26 q 0,-15 15,-15 z"
+         fill="#173f74"
+         id="path131" />
+      <text
+         class="table-head"
+         x="1222"
+         y="208"
+         id="text132">Process Summary</text>
+      <text
+         class="table-text"
+         x="1223"
+         y="255"
+         id="text133">Main process steps</text>
+      <text
+         class="card-title"
+         x="1540"
+         y="255"
+         text-anchor="end"
+         id="text134">12</text>
+      <path
+         class="divider"
+         d="m 1216,268 h 342"
+         id="path134" />
+      <text
+         class="table-text"
+         x="1223"
+         y="292"
+         id="text135">Follow-up / open actions</text>
+      <text
+         class="card-title"
+         x="1540"
+         y="292"
+         text-anchor="end"
+         id="text136">2</text>
+      <path
+         class="divider"
+         d="m 1216,304 h 342"
+         id="path136" />
+      <text
+         class="table-text"
+         x="1223"
+         y="327"
+         id="text137">Active hold</text>
+      <text
+         class="card-title"
+         x="1540"
+         y="327"
+         text-anchor="end"
+         id="text138">1</text>
+    </g>
+    <g
+       id="status-summary">
+      <rect
+         class="panel"
+         x="1200"
+         y="356"
+         width="375"
+         height="257"
+         rx="15"
+         id="rect138" />
+      <path
+         d="m 1215,356 h 345 q 15,0 15,15 v 27 h -375 v -27 q 0,-15 15,-15 z"
+         fill="#173f74"
+         id="path138" />
+      <text
+         class="table-head"
+         x="1222"
+         y="383"
+         id="text139">Key Status (Simulation)</text>
+      <g
+         class="table-text"
+         id="g145">
+        <text
+           x="1222"
+           y="430"
+           id="text140">Service Request</text>
+        <text
+           x="1222"
+           y="460"
+           id="text141">Service Order</text>
+        <text
+           x="1222"
+           y="490"
+           id="text142">Service Confirmation</text>
+        <text
+           x="1222"
+           y="520"
+           id="text143">BDR</text>
+        <text
+           x="1222"
+           y="550"
+           id="text144">Invoice</text>
+        <text
+           x="1222"
+           y="580"
+           id="text145">Billing Finalization</text>
+      </g>
+      <g
+         id="status-pills">
+        <rect
+           x="1430"
+           y="411"
+           width="123"
+           height="24"
+           rx="12"
+           fill="#ffe7e5"
+           stroke="#e58b85"
+           id="rect145" />
+        <text
+           class="status-text"
+           x="1491"
+           y="427"
+           fill="#B94038"
+           id="text146">OPEN</text>
+        <rect
+           x="1430"
+           y="441"
+           width="123"
+           height="24"
+           rx="12"
+           fill="#e1f5e3"
+           stroke="#8bcd91"
+           id="rect146" />
+        <text
+           class="status-text"
+           x="1491"
+           y="457"
+           fill="#277E45"
+           id="text147">RELEASED</text>
+        <rect
+           x="1430"
+           y="471"
+           width="123"
+           height="24"
+           rx="12"
+           fill="#e1f5e3"
+           stroke="#8bcd91"
+           id="rect147" />
+        <text
+           class="status-text"
+           x="1491"
+           y="487"
+           fill="#277E45"
+           id="text148">COMPLETED</text>
+        <rect
+           x="1430"
+           y="501"
+           width="123"
+           height="24"
+           rx="12"
+           fill="#e1f5e3"
+           stroke="#8bcd91"
+           id="rect148" />
+        <text
+           class="status-text"
+           x="1491"
+           y="517"
+           fill="#277E45"
+           id="text149">CREATED</text>
+        <rect
+           x="1430"
+           y="531"
+           width="123"
+           height="24"
+           rx="12"
+           fill="#eae7ff"
+           stroke="#ac9aeb"
+           id="rect149" />
+        <text
+           class="status-text"
+           x="1491"
+           y="547"
+           fill="#6548B0"
+           id="text150">DRAFT</text>
+        <rect
+           x="1412"
+           y="561"
+           width="141"
+           height="25"
+           rx="12"
+           fill="#ffe7e5"
+           stroke="#e58b85"
+           id="rect150" />
+        <text
+           class="status-text"
+           x="1482"
+           y="578"
+           fill="#B94038"
+           id="text151">HOLD_TAX_REVIEW</text>
+      </g>
+    </g>
+    <g
+       id="legend">
+      <rect
+         class="panel"
+         x="1200"
+         y="647"
+         width="375"
+         height="319"
+         rx="15"
+         id="rect151" />
+      <path
+         d="m 1215,633 h 345 q 15,0 15,15 v 27 h -375 v -27 q 0,-15 15,-15 z"
+         fill="#173f74"
+         id="path151" />
+      <text
+         class="table-head"
+         x="1222"
+         y="660"
+         id="text152">Legend</text>
+      <rect
+         x="1220"
+         y="697"
+         width="70"
+         height="27"
+         rx="9"
+         fill="#ffffff"
+         stroke="#78a9d7"
+         stroke-width="1.8"
+         id="rect152" />
+      <text
+         class="table-text"
+         x="1310"
+         y="711"
+         id="text153">Main process activity</text>
+      <text
+         class="small"
+         x="1310"
+         y="727"
+         id="text154">Standard flow</text>
+      <polygon
+         points="1232,774 1255,752 1278,774 1255,796 "
+         fill="#fff7de"
+         stroke="#d5a43a"
+         stroke-width="1.8"
+         id="polygon154" />
+      <text
+         class="table-text"
+         x="1310"
+         y="772"
+         id="text155">Decision point</text>
+      <text
+         class="small"
+         x="1310"
+         y="788"
+         id="text156">Business rule check</text>
+      <rect
+         x="1220"
+         y="819"
+         width="70"
+         height="30"
+         rx="8"
+         fill="#ffffff"
+         stroke="#e98a19"
+         stroke-width="1.8"
+         stroke-dasharray="6, 4"
+         id="rect156" />
+      <text
+         class="table-text"
+         x="1310"
+         y="832"
+         id="text157">Open action</text>
+      <text
+         class="small"
+         x="1310"
+         y="848"
+         id="text158">Exception / pending item</text>
+      <rect
+         x="1220"
+         y="884"
+         width="106"
+         height="23"
+         rx="11"
+         fill="#e1f5e3"
+         stroke="#8bcd91"
+         id="rect158" />
+      <text
+         class="status-text"
+         x="1273"
+         y="900"
+         fill="#277E45"
+         id="text159">COMPLETED</text>
+      <text
+         class="table-text"
+         x="1350"
+         y="900"
+         id="text160">Process completed</text>
+      <rect
+         x="1220"
+         y="916"
+         width="106"
+         height="23"
+         rx="11"
+         fill="#eae7ff"
+         stroke="#ac9aeb"
+         id="rect160" />
+      <text
+         class="status-text"
+         x="1273"
+         y="932"
+         fill="#6548B0"
+         id="text161">DRAFT</text>
+      <text
+         class="table-text"
+         x="1350"
+         y="932"
+         id="text162">Not yet finalized</text>
+    </g>
+  </g>
+  <!-- BOTTOM BUSINESS RULES -->
+  <g
+     id="business-rules"
+     transform="translate(12.78702)">
+    <rect
+       class="panel"
+       x="25"
+       y="988"
+       width="710"
+       height="156"
+       rx="14"
+       id="rect162" />
+    <path
+       d="m 39,988 h 682 q 14,0 14,14 v 25 H 25 v -25 q 0,-14 14,-14 z"
+       fill="#173f74"
+       id="path162" />
+    <text
+       class="table-head"
+       x="43"
+       y="1013"
+       id="text163">Applicable Business Rules (BR-SM)</text>
+    <path
+       class="divider"
+       d="m 140,1032 v 102"
+       id="path163" />
+    <path
+       class="divider"
+       d="m 485,1032 v 102"
+       id="path164" />
+    <g
+       class="table-text"
+       id="g175">
+      <text
+         x="40"
+         y="1051"
+         id="text164">BR-SM-001</text>
+      <text
+         x="154"
+         y="1051"
+         id="text165">Service Priority Validation</text>
+      <text
+         x="500"
+         y="1051"
+         id="text166">Applied · CRITICAL</text>
+      <text
+         x="40"
+         y="1078"
+         id="text167">BR-SM-002</text>
+      <text
+         x="154"
+         y="1078"
+         id="text168">Service Order Release Readiness</text>
+      <text
+         x="500"
+         y="1078"
+         id="text169">Applied · RELEASED</text>
+      <text
+         x="40"
+         y="1105"
+         id="text170">BR-SM-003</text>
+      <text
+         x="154"
+         y="1105"
+         id="text171">Confirmation Data Validation</text>
+      <text
+         x="500"
+         y="1105"
+         id="text172">Applied · DATA_VALID</text>
+      <text
+         x="40"
+         y="1132"
+         id="text173">BR-SM-004</text>
+      <text
+         x="154"
+         y="1132"
+         id="text174">Billable Labor Control</text>
+      <text
+         x="500"
+         y="1132"
+         id="text175">Applied · 2 H / Rp700.000</text>
+    </g>
+  </g>
+  <!-- BOTTOM METRICS -->
+  <g
+     id="key-numbers"
+     transform="translate(70.78702)">
+    <rect
+       class="panel"
+       x="752"
+       y="988"
+       width="353"
+       height="156"
+       rx="14"
+       id="rect175" />
+    <path
+       d="m 766,988 h 325 q 14,0 14,14 v 25 H 752 v -25 q 0,-14 14,-14 z"
+       fill="#173f74"
+       id="path175" />
+    <text
+       class="table-head"
+       x="770"
+       y="1013"
+       id="text176">Key Numbers</text>
+    <g
+       class="table-text"
+       id="g184">
+      <text
+         x="768"
+         y="1050"
+         id="text177">Actual Labor</text>
+      <text
+         x="1085"
+         y="1050"
+         text-anchor="end"
+         id="text178">3 H</text>
+      <text
+         x="768"
+         y="1077"
+         id="text179">Billable Labor</text>
+      <text
+         x="1085"
+         y="1077"
+         text-anchor="end"
+         id="text180">2 H</text>
+      <text
+         x="768"
+         y="1104"
+         id="text181">Internal Labor Cost</text>
+      <text
+         x="1085"
+         y="1104"
+         text-anchor="end"
+         id="text182">Rp540.000</text>
+      <text
+         x="768"
+         y="1131"
+         id="text183">Net Billing Amount</text>
+      <text
+         x="1085"
+         y="1131"
+         text-anchor="end"
+         id="text184">Rp700.000</text>
+    </g>
+  </g>
+  <!-- BOTTOM NOTES -->
+  <g
+     id="traceability-notes"
+     transform="translate(128.78702)">
+    <rect
+       class="panel"
+       x="1122"
+       y="988"
+       width="453"
+       height="156"
+       rx="14"
+       id="rect184" />
+    <path
+       d="m 1136,988 h 425 q 14,0 14,14 v 25 h -453 v -25 q 0,-14 14,-14 z"
+       fill="#173f74"
+       id="path184" />
+    <text
+       class="table-head"
+       x="1140"
+       y="1013"
+       id="text185">Traceability &amp; Notes</text>
+    <g
+       class="small"
+       id="g190">
+      <text
+         x="1139"
+         y="1051"
+         id="text186">Data: UCI Scania APS Failure Dataset</text>
+      <text
+         x="1139"
+         y="1073"
+         id="text187">Source_Row_ID: 10 · Class: pos</text>
+      <text
+         x="1139"
+         y="1095"
+         id="text188">Customer, asset, and transactions are simulated.</text>
+    </g>
+  </g>
+  <!-- FOOTER -->
+  <g
+     id="footer"
+     transform="translate(128.78702)">
+    <text
+       x="1570"
+       y="1168"
+       text-anchor="end"
+       font-size="11px"
+       fill="#7B8EA2"
+       id="text192">Monetary values in IDR · Simulation only</text>
+  </g>
+  <metadata
+     id="metadata192">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>APS Service-to-Billing Flow</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
